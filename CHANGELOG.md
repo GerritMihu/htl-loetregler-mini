@@ -1,7 +1,36 @@
 HTL Lötregler Mini - Changelog
 ==============================
-
 # Hardware
+## V22.0.0
+* Update auf Kicad 6
+* Atmega328 mit Rpi Pico ausgetauscht
+    -UART Rx - GPIO0, Tx - GPIO1
+    -Selbsthaltung - GPIO2
+    -Heizelemnt - GPIO3
+    -Ein-Aus-Taster - GPIO4
+    -UP-Taster - GPIO5
+    -DOWN-Taster - GPIO6
+    -ENTER-Taster - GPIO7
+    -BACK-Taster - GPIO8
+    -COMDriveEnable - GPIO9
+    -Lötkolbenständer - GPIO10 ! war vorher auf einem Analogen Eingang
+    -Batteriemessung - GPIO26
+    -Temperatur - GPIO27
+    -Strom - GPIO28
+* 5V mit 3,3V ersetzt d.h D3 mit 3,3V Zenerspannung, neuer Vorwiderstand LED D7
+* 1k zu Referenzspannung hinzugefügt
+* ISP durch SWD ersetzt
+* R9 und R10 durch einen 2k7 Widerstand ersetzt
+* Gatetreiber PN7006A durch TF2101M-TAH ersetzt (Lierferengpass)
+  Minimale Gatespannung ist nun 10V statt bisher 7V. Sonst gleichwertig. 
+* Neue Bestellnummer des Sicherungshalter-Clips
+* Neue Federklemmen: 10A statt 15A, selber Footprint
+* Neue Bestellnummer für Buchsenleiste, OLED
+* Neue Bestellnummer für 2N7002 N-MOS
+* Spannungsreferenz von LM342 2,51 auf LM4040 mit 3,0 V geändert. Das ist die Analogversorgung des ADCs, 
+  der nur optimal bis 3.0V arbeitet, darunter nicht mehr so gut. 
+
+
 ## V21.0.1
 * Überdeckende Footprints noch auseinander gerückt
 * Messwiderstand der 12V-Versorgung richtig geschaltet, zuvor war Gatetreiber fix versorgt

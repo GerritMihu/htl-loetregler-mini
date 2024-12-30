@@ -82,7 +82,7 @@ void setup() {
   delay(100);
   Serial.println("HTL LOETREGLER MINI");
 
-#if !defined(__AVR__)
+#if defined(__AVR__)
   Wire.setSDA(20);
   Wire.setSCL(21);
 #endif
@@ -420,7 +420,7 @@ void abschalten() {
       if ((buttons.power->getEvent() == Button::PressedEvent)) {
         reActivate = true;
       }
-      if (temperaturSpitze() >= 490) {
+      if (temperaturSpitze() >= 400) {
         forcedShutdown = true;
       }
     }

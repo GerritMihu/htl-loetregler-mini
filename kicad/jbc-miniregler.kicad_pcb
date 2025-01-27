@@ -100,61 +100,61 @@
 	(net 17 "GNDPWR")
 	(net 18 "/Stromversorgung/Spannungsregler 12V/IN")
 	(net 19 "Net-(C5-Pad2)")
-	(net 20 "Net-(C6-Pad2)")
-	(net 21 "Net-(D1-Pad2)")
+	(net 20 "Net-(Q2-C)")
+	(net 21 "Net-(U4-C1+)")
 	(net 22 "/Messverstärker/TC+")
 	(net 23 "/Leistungsteil/HTC-")
 	(net 24 "/Arduino/Batteriemessung")
 	(net 25 "/Stromversorgung/Spannungsregler 3,3V/3,3V")
 	(net 26 "/Stromversorgung/Spannungsregler 3,3V/fb")
-	(net 27 "Net-(C16-Pad2)")
+	(net 27 "Net-(U4-C1-)")
 	(net 28 "/Arduino/RxD")
 	(net 29 "+3.3V")
-	(net 30 "Net-(C18-Pad2)")
-	(net 31 "Net-(C19-Pad2)")
-	(net 32 "Net-(C21-Pad2)")
-	(net 33 "Net-(C22-Pad1)")
-	(net 34 "Net-(C16-Pad1)")
-	(net 35 "Net-(C24-Pad1)")
-	(net 36 "Net-(C25-Pad2)")
-	(net 37 "Net-(C26-Pad1)")
-	(net 38 "Net-(D3-Pad3)")
-	(net 39 "Net-(D5-Pad2)")
+	(net 30 "Net-(U4-C2+)")
+	(net 31 "Net-(U4-C2-)")
+	(net 32 "Net-(U4-VS-)")
+	(net 33 "Net-(U4-VS+)")
+	(net 34 "Net-(U6-GPIO10)")
+	(net 35 "Net-(D11-K)")
+	(net 36 "Net-(D13A-K)")
+	(net 37 "Net-(D14A-K)")
+	(net 38 "Net-(D1-A)")
+	(net 39 "Net-(D3-K)")
 	(net 40 "/Stromversorgung/Spannungsregler 3,3V/sw")
-	(net 41 "Net-(D7-Pad2)")
-	(net 42 "Net-(D10-Pad3)")
+	(net 41 "Net-(D5-A)")
+	(net 42 "Net-(D7-A)")
 	(net 43 "/Batterie Varianten/Plus")
-	(net 44 "Net-(J2-Pad1)")
-	(net 45 "unconnected-(J9-Pad6)")
-	(net 46 "Net-(C18-Pad1)")
-	(net 47 "Net-(JP8-Pad3)")
-	(net 48 "Net-(Q2-Pad2)")
-	(net 49 "Net-(Q4-Pad3)")
-	(net 50 "Net-(Q5-Pad1)")
+	(net 44 "Net-(D10A-K)")
+	(net 45 "Net-(J2-Pin_1)")
+	(net 46 "Net-(J7-Pin_1)")
+	(net 47 "unconnected-(J9-Pin_8-Pad8)")
+	(net 48 "unconnected-(J9-Pin_7-Pad7)")
+	(net 49 "unconnected-(J9-Pin_6-Pad6)")
+	(net 50 "unconnected-(J9-Pin_10-Pad10)")
 	(net 51 "/Stromversorgung/Spannungsregler 3,3V/~{en}")
-	(net 52 "Net-(R41-Pad1)")
+	(net 52 "Net-(JP6-C)")
 	(net 53 "/Arduino/Lötkolbenständer")
-	(net 54 "Net-(J7-Pad1)")
-	(net 55 "Net-(R42-Pad1)")
-	(net 56 "Net-(R43-Pad2)")
+	(net 54 "Net-(JP7-C)")
+	(net 55 "Net-(JP8-B)")
+	(net 56 "Net-(JP8-C)")
 	(net 57 "/Leistungsteil/U_Shunt")
-	(net 58 "Net-(R51-Pad2)")
-	(net 59 "Net-(R52-Pad2)")
+	(net 58 "Net-(JP9-C)")
+	(net 59 "Net-(Q2-E)")
 	(net 60 "Net-(R52-Pad1)")
-	(net 61 "Net-(R54-Pad2)")
+	(net 61 "Net-(Q4-D)")
 	(net 62 "Net-(R54-Pad1)")
-	(net 63 "unconnected-(U4-Pad7)")
-	(net 64 "Net-(JP6-Pad2)")
-	(net 65 "Net-(JP7-Pad2)")
+	(net 63 "Net-(Q5-G)")
+	(net 64 "Net-(U8-LIN)")
+	(net 65 "Net-(U8-LO)")
 	(net 66 "/Arduino/ComDriverEnable")
 	(net 67 "/UART RS232/RS485/TxD_A")
 	(net 68 "/UART RS232/RS485/RxD_B")
 	(net 69 "/Stromversorgung/Spannungsregler 12V/sw")
 	(net 70 "/Stromversorgung/Spannungsregler 12V/fb")
 	(net 71 "/Stromversorgung/Spannungsregler 12V/~{en}")
-	(net 72 "unconnected-(U4-Pad8)")
-	(net 73 "unconnected-(U4-Pad9)")
-	(net 74 "unconnected-(U4-Pad10)")
+	(net 72 "Net-(U8-HO)")
+	(net 73 "Net-(U9B-+)")
+	(net 74 "Net-(U9B--)")
 	(net 75 "/UART RS232/RS485/A")
 	(net 76 "/UART RS232/RS485/B")
 	(net 77 "/UART RS232/RS485/TxD")
@@ -165,24 +165,24 @@
 	(net 82 "/UART RS232/RS485/tin")
 	(net 83 "/UART RS232/RS485/ro")
 	(net 84 "/UART RS232/RS485/rout")
-	(net 85 "Net-(JP8-Pad2)")
-	(net 86 "unconnected-(U6-Pad15)")
-	(net 87 "Net-(JP9-Pad2)")
-	(net 88 "unconnected-(U6-Pad16)")
-	(net 89 "unconnected-(U6-Pad17)")
-	(net 90 "unconnected-(U6-Pad19)")
-	(net 91 "unconnected-(U6-Pad20)")
+	(net 85 "Net-(U9A--)")
+	(net 86 "unconnected-(U4-T2OUT-Pad7)")
+	(net 87 "unconnected-(U4-R2OUT-Pad9)")
+	(net 88 "unconnected-(U4-R2IN-Pad8)")
+	(net 89 "unconnected-(U4-T2IN-Pad10)")
+	(net 90 "unconnected-(U6-VBUS-Pad40)")
+	(net 91 "unconnected-(U6-GPIO15-Pad20)")
 	(net 92 "/Stromversorgung/12Va")
-	(net 93 "unconnected-(U6-Pad21)")
-	(net 94 "unconnected-(U6-Pad22)")
-	(net 95 "unconnected-(U6-Pad24)")
-	(net 96 "unconnected-(U6-Pad25)")
-	(net 97 "unconnected-(U6-Pad29)")
-	(net 98 "unconnected-(U6-Pad36)")
-	(net 99 "unconnected-(U6-Pad40)")
-	(net 100 "unconnected-(J9-Pad7)")
-	(net 101 "unconnected-(J9-Pad8)")
-	(net 102 "unconnected-(J9-Pad10)")
+	(net 93 "unconnected-(U6-GPIO14-Pad19)")
+	(net 94 "unconnected-(U6-GPIO22-Pad29)")
+	(net 95 "unconnected-(U6-GPIO17-Pad22)")
+	(net 96 "unconnected-(U6-GPIO11-Pad15)")
+	(net 97 "unconnected-(U6-3V3-Pad36)")
+	(net 98 "unconnected-(U6-GPIO12-Pad16)")
+	(net 99 "unconnected-(U6-GPIO13-Pad17)")
+	(net 100 "unconnected-(U6-GPIO18-Pad24)")
+	(net 101 "unconnected-(U6-GPIO16-Pad21)")
+	(net 102 "unconnected-(U6-GPIO19-Pad25)")
 	(net 103 "/Arduino/SWDIO")
 	(net 104 "/Arduino/SWCLK")
 	(net 105 "/Arduino/VSYS")
@@ -217,7 +217,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -229,7 +229,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1811151136_Walsin-Tech-Corp-0603B104K160CT_C80516.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -373,7 +373,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-000060b19969")
+		(sheetname "Stammblatt")
 		(sheetfile "jbc-miniregler.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -545,7 +547,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -557,7 +559,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1811151136_Walsin-Tech-Corp-0603B104K160CT_C80516.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -701,7 +703,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-000060b20a61")
+		(sheetname "Stammblatt")
 		(sheetfile "jbc-miniregler.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -873,7 +877,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -885,7 +889,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1811151136_Walsin-Tech-Corp-0603B104K160CT_C80516.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1029,7 +1033,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-000060b24746")
+		(sheetname "Stammblatt")
 		(sheetfile "jbc-miniregler.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1201,7 +1207,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -1213,7 +1219,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006031834_PSA-Prosperity-Dielectrics-FN31X103K500PXG_C525316.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -1333,6 +1339,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-0000608dbc55/00000000-0000-0000-0000-0000608f5a12")
 		(sheetname "Messverstärker")
 		(sheetfile "amplifier.kicad_sch")
@@ -1453,7 +1460,7 @@
 			(size 1.15 1.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2173904348)
-			(net 37 "Net-(C26-Pad1)")
+			(net 37 "Net-(D14A-K)")
 			(pintype "passive")
 			(uuid "6c05fca9-1758-4380-9552-2a8a2dca1cb8")
 		)
@@ -1506,7 +1513,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1518,7 +1525,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1811151136_Walsin-Tech-Corp-0603B104K160CT_C80516.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1662,6 +1669,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-0000608dbc55/00000000-0000-0000-0000-0000608ee392")
 		(sheetname "Messverstärker")
 		(sheetfile "amplifier.kicad_sch")
@@ -1835,7 +1843,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1847,7 +1855,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811151136_Samsung-Electro-Mechanics-CL31B106KOHNNNE_C47971.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1967,6 +1975,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-0000608dbc6e/00000000-0000-0000-0000-000060a033e2")
 		(sheetname "Leistungsteil")
 		(sheetfile "power-stage.kicad_sch")
@@ -2140,7 +2149,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2152,7 +2161,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810241228_YAGEO-CC1206KKX7R0BB105_C70463.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2284,6 +2293,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-0000608dbc6e/00000000-0000-0000-0000-0000609fbe75")
 		(sheetname "Leistungsteil")
 		(sheetfile "power-stage.kicad_sch")
@@ -2404,7 +2414,7 @@
 			(size 1.15 1.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2173904348)
-			(net 35 "Net-(C24-Pad1)")
+			(net 35 "Net-(D11-K)")
 			(pintype "passive")
 			(uuid "ef769b77-b107-4fe1-9e36-6ea06ca026a6")
 		)
@@ -2457,7 +2467,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2469,7 +2479,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_IHHEC-HOLY-STONE-ENTERPRISE-CO---LTD-C1206X102K101T_C398254.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2589,6 +2599,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-000060b2778f")
 		(sheetname "Stromversorgung")
 		(sheetfile "power-supply.kicad_sch")
@@ -2762,7 +2773,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2774,7 +2785,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006031834_PSA-Prosperity-Dielectrics-FN31X103K500PXG_C525316.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2894,6 +2905,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-00006093ebfb")
 		(sheetname "Stromversorgung")
 		(sheetfile "power-supply.kicad_sch")
@@ -3023,7 +3035,7 @@
 			(size 1.15 1.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2173904348)
-			(net 20 "Net-(C6-Pad2)")
+			(net 20 "Net-(Q2-C)")
 			(pintype "passive")
 			(uuid "9083a892-4ed0-4051-b1f3-3e512cb4a675")
 		)
@@ -3067,7 +3079,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3079,7 +3091,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811151136_Samsung-Electro-Mechanics-CL31B106KOHNNNE_C47971.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3199,6 +3211,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-000060a83141")
 		(sheetname "Stromversorgung")
 		(sheetfile "power-supply.kicad_sch")
@@ -3372,7 +3385,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3384,7 +3397,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2002201612_Ymin-VKMD1001J101MV_C487384.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3504,6 +3517,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-000060a427ae/00000000-0000-0000-0000-000060a5d79c")
 		(sheetname "Spannungsregler 12V")
 		(sheetfile "dcdc-12v.kicad_sch")
@@ -3908,7 +3922,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3920,7 +3934,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810261112_CCTC-TCC1206X7R333K500DT_C309052.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4040,6 +4054,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-000060a427ae/00000000-0000-0000-0000-000060a5d794")
 		(sheetname "Spannungsregler 12V")
 		(sheetfile "dcdc-12v.kicad_sch")
@@ -4213,7 +4228,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4225,7 +4240,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810251120_Samsung-Electro-Mechanics-CL31B104KCFNNNE_C1945.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4345,6 +4360,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-000060a447a8/00000000-0000-0000-0000-000060a48c96")
 		(sheetname "Spannungsregler 3,3V")
 		(sheetfile "dcdc-3,3v.kicad_sch")
@@ -4518,7 +4534,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4530,7 +4546,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2101041032_XINGLIGHT-XL-3216UOC_C965823.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4650,7 +4666,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/00000000-0000-0000-0000-000060ada10b")
+		(sheetname "Stammblatt")
 		(sheetfile "jbc-miniregler.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4799,7 +4817,7 @@
 			(size 1.25 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2)
-			(net 21 "Net-(D1-Pad2)")
+			(net 38 "Net-(D1-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "580f0d58-7f67-4bab-846c-f3bb9b21652a")
@@ -4844,7 +4862,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4856,7 +4874,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4988,6 +5006,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/00000000-0000-0000-0000-0000608dbc55/00000000-0000-0000-0000-0000608f1916")
 		(sheetname "Messverstärker")
 		(sheetfile "amplifier.kicad_sch")
@@ -5155,7 +5174,7 @@
 			(at 1 0 90)
 			(size 0.9 0.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 37 "Net-(C26-Pad1)")
+			(net 37 "Net-(D14A-K)")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "f630647b-1021-40b7-9225-21467d3b0732")
@@ -5200,7 +5219,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMC"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5212,7 +5231,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_Brightking-SMCJ48A-TR13_C310056.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5344,6 +5363,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "D? SO* SM*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-0000609627f6")
 		(sheetname "Stromversorgung")
 		(sheetfile "power-supply.kicad_sch")
@@ -5587,7 +5607,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5599,7 +5619,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5719,6 +5739,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "D*SOT?23*ANK*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-000060911c30")
 		(sheetname "Stromversorgung")
 		(sheetfile "power-supply.kicad_sch")
@@ -5883,7 +5904,7 @@
 			(at 1 0 90)
 			(size 0.9 0.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 38 "Net-(D3-Pad3)")
+			(net 39 "Net-(D3-K)")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "92260fd1-5434-46c0-a655-735705612f2f")
@@ -5928,7 +5949,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_smd:D_SMA_wide"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5940,7 +5961,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2101111838_ZHIDE-SS210A-W_C2683692.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6072,6 +6093,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-000060a427ae/00000000-0000-0000-0000-000060a5d77d")
 		(sheetname "Spannungsregler 12V")
 		(sheetfile "dcdc-12v.kicad_sch")
@@ -6316,7 +6338,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6328,7 +6350,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2101041032_XINGLIGHT-XL-3216UGC_C965825.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6460,6 +6482,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-000060a427ae/00000000-0000-0000-0000-000060a5d7f6")
 		(sheetname "Spannungsregler 12V")
 		(sheetfile "dcdc-12v.kicad_sch")
@@ -6610,7 +6633,7 @@
 			(size 1.25 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2)
-			(net 39 "Net-(D5-Pad2)")
+			(net 41 "Net-(D5-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "619169ce-4b34-49e1-b68f-03a86e3b2453")
@@ -6655,7 +6678,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6667,7 +6690,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2012311806_GOODWORK-SMAJ8-0CA_C908814.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6799,10 +6822,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "D? SO* SM*")
 		(path "/00000000-0000-0000-0000-000060a756e2/00000000-0000-0000-0000-000060a953fa")
 		(sheetname "UART RS232/RS485")
 		(sheetfile "uart-rs232-rs485.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -3.4 -1.65)
 			(end -3.4 1.65)
@@ -7040,7 +7064,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_mechanical:fuse-clip_20x5mm"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -7052,7 +7076,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1808311724_Shenzhen-lanson-Elec-LS-502_C182320.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -7184,6 +7208,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "*Fuse*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-00006095e63f")
 		(sheetname "Stromversorgung")
 		(sheetfile "power-supply.kicad_sch")
@@ -7415,7 +7440,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_mechanical:paste-fiducial"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7427,7 +7452,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "NAP"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7535,7 +7560,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Fiducial*")
 		(path "/00000000-0000-0000-0000-000060b50e75")
+		(sheetname "Stammblatt")
 		(sheetfile "jbc-miniregler.kicad_sch")
 		(solder_paste_margin 0.01)
 		(attr exclude_from_pos_files)
@@ -7573,7 +7600,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_mechanical:paste-fiducial"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7585,7 +7612,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "NAP"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7693,7 +7720,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Fiducial*")
 		(path "/00000000-0000-0000-0000-000060b50ab2")
+		(sheetname "Stammblatt")
 		(sheetfile "jbc-miniregler.kicad_sch")
 		(solder_paste_margin 0.01)
 		(attr exclude_from_pos_files)
@@ -7731,7 +7760,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_virtual:Virtual-Item"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7840,6 +7869,7 @@
 			)
 		)
 		(path "/00000000-0000-0000-0000-000060b4cfb2")
+		(sheetname "Stammblatt")
 		(sheetfile "jbc-miniregler.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -7909,7 +7939,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_virtual:Virtual-Item"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8124,7 +8154,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_connectors:Federklemme_KF142_3P_P5.08mm_C475145"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8136,7 +8166,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2001151504_Cixi-Kefa-Elec-KF142R-5-08-3P_C475145.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8256,7 +8286,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/00000000-0000-0000-0000-000060a7601a")
+		(sheetname "Stammblatt")
 		(sheetfile "jbc-miniregler.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -8578,7 +8610,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8590,7 +8622,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811151428_KIA-Semicon-Tech-KND3508A_C116513.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9005,7 +9037,7 @@
 			(at -4.2 -2.28)
 			(size 2.2 1.2)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 50 "Net-(Q5-Pad1)")
+			(net 63 "Net-(Q5-G)")
 			(pinfunction "G")
 			(pintype "input")
 			(uuid "9ca1f49a-71a1-492f-a3f7-414407c66a78")
@@ -9068,7 +9100,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9080,7 +9112,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9212,6 +9244,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-0000609bc7ad")
 		(sheetname "Stromversorgung")
 		(sheetfile "power-supply.kicad_sch")
@@ -9361,7 +9394,7 @@
 			(at -1 -0.95)
 			(size 0.9 0.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 38 "Net-(D3-Pad3)")
+			(net 39 "Net-(D3-K)")
 			(pinfunction "G")
 			(pintype "input")
 			(uuid "2d6c905c-61a7-4906-9a3c-bfc1333ec47f")
@@ -9424,7 +9457,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9436,7 +9469,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9568,6 +9601,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-000060913552")
 		(sheetname "Stromversorgung")
 		(sheetfile "power-supply.kicad_sch")
@@ -9717,7 +9751,7 @@
 			(at -1 -0.95)
 			(size 0.9 0.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 38 "Net-(D3-Pad3)")
+			(net 39 "Net-(D3-K)")
 			(pinfunction "B")
 			(pintype "input")
 			(uuid "d34ba17f-9890-4399-9968-46ef73c95637")
@@ -9726,7 +9760,7 @@
 			(at -1 0.95)
 			(size 0.9 0.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 48 "Net-(Q2-Pad2)")
+			(net 59 "Net-(Q2-E)")
 			(pinfunction "E")
 			(pintype "passive")
 			(uuid "ff071146-edb4-4367-b2db-397a2dabeee5")
@@ -9735,7 +9769,7 @@
 			(at 1 0)
 			(size 0.9 0.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 20 "Net-(C6-Pad2)")
+			(net 20 "Net-(Q2-C)")
 			(pinfunction "C")
 			(pintype "passive")
 			(uuid "05c5e853-fb7a-468b-8d60-2299c4316e69")
@@ -9780,7 +9814,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9792,7 +9826,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9924,6 +9958,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-00006091430b")
 		(sheetname "Stromversorgung")
 		(sheetfile "power-supply.kicad_sch")
@@ -10082,7 +10117,7 @@
 			(at -1 0.95)
 			(size 0.9 0.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 48 "Net-(Q2-Pad2)")
+			(net 59 "Net-(Q2-E)")
 			(pinfunction "E")
 			(pintype "passive")
 			(uuid "ca3f3eac-265d-4671-bf39-b77d88f539c4")
@@ -10091,7 +10126,7 @@
 			(at 1 0)
 			(size 0.9 0.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 20 "Net-(C6-Pad2)")
+			(net 20 "Net-(Q2-C)")
 			(pinfunction "C")
 			(pintype "passive")
 			(uuid "c3287467-5612-42dd-9f0d-366118e8a694")
@@ -10136,7 +10171,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10148,7 +10183,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810301936_FH--Guangdong-Fenghua-Advanced-Tech-RS-06K103JT_C118075.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10256,7 +10291,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000060ac53ec")
+		(sheetname "Stammblatt")
 		(sheetfile "jbc-miniregler.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10428,7 +10465,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10440,7 +10477,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810301936_FH--Guangdong-Fenghua-Advanced-Tech-RS-06K103JT_C118075.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10548,7 +10585,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000060ac53f2")
+		(sheetname "Stammblatt")
 		(sheetfile "jbc-miniregler.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10720,7 +10759,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10732,7 +10771,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810301936_FH--Guangdong-Fenghua-Advanced-Tech-RS-06K103JT_C118075.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10840,7 +10879,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000060ab2e71")
+		(sheetname "Stammblatt")
 		(sheetfile "jbc-miniregler.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11012,7 +11053,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11024,7 +11065,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810301936_FH--Guangdong-Fenghua-Advanced-Tech-RS-06K103JT_C118075.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11132,7 +11173,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000060ab2e77")
+		(sheetname "Stammblatt")
 		(sheetfile "jbc-miniregler.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11304,7 +11347,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11316,7 +11359,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811081842_RALEC-RTT06102JTP_C104601.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11436,7 +11479,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000060ada111")
+		(sheetname "Stammblatt")
 		(sheetfile "jbc-miniregler.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11564,7 +11609,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2222195556)
-			(net 21 "Net-(D1-Pad2)")
+			(net 38 "Net-(D1-A)")
 			(pintype "passive")
 			(uuid "beb845c5-7bb2-4fab-8a22-f33ab1b74167")
 		)
@@ -11608,7 +11653,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11620,7 +11665,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810301936_FH--Guangdong-Fenghua-Advanced-Tech-RS-06K103JT_C118075.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11728,6 +11773,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc55/00000000-0000-0000-0000-0000608f5345")
 		(sheetname "Messverstärker")
 		(sheetfile "amplifier.kicad_sch")
@@ -11848,7 +11894,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2222195556)
-			(net 37 "Net-(C26-Pad1)")
+			(net 37 "Net-(D14A-K)")
 			(pintype "passive")
 			(uuid "a80c9103-b203-43bc-afa8-fe3ba154e700")
 		)
@@ -11901,7 +11947,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11985,6 +12031,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc55/00000000-0000-0000-0000-0000608f3901")
 		(sheetname "Messverstärker")
 		(sheetfile "amplifier.kicad_sch")
@@ -12114,7 +12161,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2222195556)
-			(net 61 "Net-(R54-Pad2)")
+			(net 85 "Net-(U9A--)")
 			(pintype "passive")
 			(uuid "76c5dbad-e0f0-414c-b0fc-181d0367f9dd")
 		)
@@ -12158,7 +12205,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12170,7 +12217,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811141436_Ever-Ohms-Tech-CR1206F100RP05Z_C245445.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12290,6 +12337,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc55/00000000-0000-0000-0000-0000608f3c13")
 		(sheetname "Messverstärker")
 		(sheetfile "amplifier.kicad_sch")
@@ -12410,7 +12458,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2222195556)
-			(net 61 "Net-(R54-Pad2)")
+			(net 85 "Net-(U9A--)")
 			(pintype "passive")
 			(uuid "c1057284-de4a-4cf8-b09a-8d1abf0a9ce0")
 		)
@@ -12419,7 +12467,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2222195556)
-			(net 87 "Net-(JP9-Pad2)")
+			(net 58 "Net-(JP9-C)")
 			(pintype "passive")
 			(uuid "79444139-3ae7-462d-8f5d-8091f01f9214")
 		)
@@ -12463,7 +12511,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12547,6 +12595,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc55/00000000-0000-0000-0000-000060a2e38c")
 		(sheetname "Messverstärker")
 		(sheetfile "amplifier.kicad_sch")
@@ -12676,7 +12725,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2222195556)
-			(net 59 "Net-(R52-Pad2)")
+			(net 74 "Net-(U9B--)")
 			(pintype "passive")
 			(uuid "92670841-e9a3-483e-875c-74be6a263bff")
 		)
@@ -12720,7 +12769,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12732,7 +12781,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811081842_RALEC-RTT06102JTP_C104601.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12852,6 +12901,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc6e/00000000-0000-0000-0000-000060a04847")
 		(sheetname "Leistungsteil")
 		(sheetfile "power-stage.kicad_sch")
@@ -13025,7 +13075,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13037,7 +13087,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811081842_RALEC-RTT06102JTP_C104601.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13157,6 +13207,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc6e/00000000-0000-0000-0000-000060a094fe")
 		(sheetname "Leistungsteil")
 		(sheetfile "power-stage.kicad_sch")
@@ -13277,7 +13328,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2222195556)
-			(net 52 "Net-(R41-Pad1)")
+			(net 64 "Net-(U8-LIN)")
 			(pintype "passive")
 			(uuid "be36be6e-d654-44f3-b0d0-d1c2343a48b2")
 		)
@@ -13330,7 +13381,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13342,7 +13393,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811081842_RALEC-RTT06102JTP_C104601.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13462,6 +13513,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc6e/00000000-0000-0000-0000-000060a08ce0")
 		(sheetname "Leistungsteil")
 		(sheetfile "power-stage.kicad_sch")
@@ -13582,7 +13634,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2222195556)
-			(net 55 "Net-(R42-Pad1)")
+			(net 65 "Net-(U8-LO)")
 			(pintype "passive")
 			(uuid "1811d090-bb54-40f8-83c0-b01831fbee60")
 		)
@@ -13635,7 +13687,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13647,7 +13699,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811141436_Ever-Ohms-Tech-CR1206F100RP05Z_C245445.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13767,6 +13819,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc6e/00000000-0000-0000-0000-0000608f2dd6")
 		(sheetname "Leistungsteil")
 		(sheetfile "power-stage.kicad_sch")
@@ -13887,7 +13940,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2222195556)
-			(net 50 "Net-(Q5-Pad1)")
+			(net 63 "Net-(Q5-G)")
 			(pintype "passive")
 			(uuid "f0c64e6b-4196-47ea-a4f6-e3dd19e24c1d")
 		)
@@ -13896,7 +13949,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2222195556)
-			(net 56 "Net-(R43-Pad2)")
+			(net 72 "Net-(U8-HO)")
 			(pintype "passive")
 			(uuid "a70292f0-e2fd-48aa-8dc7-a2da464bde86")
 		)
@@ -13940,7 +13993,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13952,7 +14005,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810301936_FH--Guangdong-Fenghua-Advanced-Tech-RS-06K103JT_C118075.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14060,6 +14113,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc6e/00000000-0000-0000-0000-0000609fb915")
 		(sheetname "Leistungsteil")
 		(sheetfile "power-stage.kicad_sch")
@@ -14236,7 +14290,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_smd:Shunt-15.2x7.6mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14248,7 +14302,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2001071408_Milliohm-HoLRS1575-1mR-1-_C481499.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14368,6 +14422,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*Shunt*")
 		(path "/00000000-0000-0000-0000-0000608dbc6e/00000000-0000-0000-0000-000060a0e53f")
 		(sheetname "Leistungsteil")
 		(sheetfile "power-stage.kicad_sch")
@@ -14802,7 +14857,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14814,7 +14869,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810301936_FH--Guangdong-Fenghua-Advanced-Tech-RS-06K103JT_C118075.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14922,6 +14977,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-000060ad33a8")
 		(sheetname "Stromversorgung")
 		(sheetfile "power-supply.kicad_sch")
@@ -15095,7 +15151,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15107,7 +15163,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810301936_FH--Guangdong-Fenghua-Advanced-Tech-RS-06K103JT_C118075.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15215,6 +15271,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-000060910b4f")
 		(sheetname "Stromversorgung")
 		(sheetfile "power-supply.kicad_sch")
@@ -15335,7 +15392,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2222195556)
-			(net 38 "Net-(D3-Pad3)")
+			(net 39 "Net-(D3-K)")
 			(pintype "passive")
 			(uuid "d290df4e-9be4-4bed-9334-33c0382a464d")
 		)
@@ -15388,7 +15445,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15400,7 +15457,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810301936_FH--Guangdong-Fenghua-Advanced-Tech-RS-06K103JT_C118075.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15508,6 +15565,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-000060918acf")
 		(sheetname "Stromversorgung")
 		(sheetfile "power-supply.kicad_sch")
@@ -15637,7 +15695,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2222195556)
-			(net 20 "Net-(C6-Pad2)")
+			(net 20 "Net-(Q2-C)")
 			(pintype "passive")
 			(uuid "d65fefe8-cdb7-499b-9f87-83700fd6f93a")
 		)
@@ -15681,7 +15739,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15765,6 +15823,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-000060a7f224")
 		(sheetname "Stromversorgung")
 		(sheetfile "power-supply.kicad_sch")
@@ -15885,7 +15944,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2222195556)
-			(net 49 "Net-(Q4-Pad3)")
+			(net 61 "Net-(Q4-D)")
 			(pintype "passive")
 			(uuid "8b309ede-4d84-458e-8642-d363daf34767")
 		)
@@ -15938,7 +15997,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15950,7 +16009,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811081842_RALEC-RTT06102JTP_C104601.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16070,6 +16129,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-000060a7f6d0")
 		(sheetname "Stromversorgung")
 		(sheetfile "power-supply.kicad_sch")
@@ -16243,7 +16303,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16255,7 +16315,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F100KT5E_C17928.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16363,6 +16423,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-000060b60b7f")
 		(sheetname "Stromversorgung")
 		(sheetfile "power-supply.kicad_sch")
@@ -16492,7 +16553,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2222195556)
-			(net 49 "Net-(Q4-Pad3)")
+			(net 61 "Net-(Q4-D)")
 			(pintype "passive")
 			(uuid "3a5f8421-dbae-496d-9721-a43636f81d60")
 		)
@@ -16536,7 +16597,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -16548,7 +16609,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F100KT5E_C17928.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -16656,6 +16717,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-000060a6ee4b")
 		(sheetname "Stromversorgung")
 		(sheetfile "power-supply.kicad_sch")
@@ -16829,7 +16891,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -16841,7 +16903,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811141436_Ever-Ohms-Tech-CR1206F100RP05Z_C245445.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -16961,6 +17023,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-000060a427ae/00000000-0000-0000-0000-000060a5d7e4")
 		(sheetname "Spannungsregler 12V")
 		(sheetfile "dcdc-12v.kicad_sch")
@@ -17134,7 +17197,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17146,7 +17209,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810241230_YAGEO-RC1206FR-0730KL_C137314.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17254,6 +17317,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-000060a427ae/00000000-0000-0000-0000-000060a5d783")
 		(sheetname "Spannungsregler 12V")
 		(sheetfile "dcdc-12v.kicad_sch")
@@ -17427,7 +17491,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17439,7 +17503,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810241114_YAGEO-AC1206FR-073K3L_C229599.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17547,6 +17611,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-000060a427ae/00000000-0000-0000-0000-000060a5d789")
 		(sheetname "Spannungsregler 12V")
 		(sheetfile "dcdc-12v.kicad_sch")
@@ -17720,7 +17785,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17732,7 +17797,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810241114_YAGEO-AC1206FR-073K3L_C229599.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17840,6 +17905,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-000060a427ae/00000000-0000-0000-0000-000060a5d7ec")
 		(sheetname "Spannungsregler 12V")
 		(sheetfile "dcdc-12v.kicad_sch")
@@ -17969,7 +18035,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2222195556)
-			(net 39 "Net-(D5-Pad2)")
+			(net 41 "Net-(D5-A)")
 			(pintype "passive")
 			(uuid "8bd1d51d-50af-4bed-893f-0501318ae3b1")
 		)
@@ -18013,7 +18079,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18025,7 +18091,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810301936_FH--Guangdong-Fenghua-Advanced-Tech-RS-06K103JT_C118075.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18133,6 +18199,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-000060a447a8/00000000-0000-0000-0000-000060a48c65")
 		(sheetname "Spannungsregler 3,3V")
 		(sheetfile "dcdc-3,3v.kicad_sch")
@@ -18306,7 +18373,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18318,7 +18385,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_FH--Guangdong-Fenghua-Advanced-Tech-RS-06K6191FT_C323110.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18426,6 +18493,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-000060a447a8/00000000-0000-0000-0000-000060a48c6b")
 		(sheetname "Spannungsregler 3,3V")
 		(sheetfile "dcdc-3,3v.kicad_sch")
@@ -18599,7 +18667,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18611,7 +18679,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811141436_Ever-Ohms-Tech-CR1206F100RP05Z_C245445.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18731,10 +18799,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000060a756e2/00000000-0000-0000-0000-000060a93b20")
 		(sheetname "UART RS232/RS485")
 		(sheetfile "uart-rs232-rs485.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.727064 0.91)
 			(end 0.727064 0.91)
@@ -18904,7 +18973,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18916,7 +18985,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811141436_Ever-Ohms-Tech-CR1206F100RP05Z_C245445.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19036,10 +19105,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000060a756e2/00000000-0000-0000-0000-000060a93ed5")
 		(sheetname "UART RS232/RS485")
 		(sheetfile "uart-rs232-rs485.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.727064 0.91)
 			(end 0.727064 0.91)
@@ -19209,7 +19279,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19221,7 +19291,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811141436_Ever-Ohms-Tech-CR1206F100RP05Z_C245445.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19341,6 +19411,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc55/00000000-0000-0000-0000-000060a2e392")
 		(sheetname "Messverstärker")
 		(sheetfile "amplifier.kicad_sch")
@@ -19461,7 +19532,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2222195556)
-			(net 59 "Net-(R52-Pad2)")
+			(net 74 "Net-(U9B--)")
 			(pintype "passive")
 			(uuid "d1251e84-0fce-47d4-b9d8-f486131a967d")
 		)
@@ -19514,7 +19585,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_smd:SW_Push_5.1mm_H1.5mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19526,7 +19597,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2002271431_XKB-Connectivity-TS-1187A-B-A-B_C318884.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19659,6 +19730,7 @@
 			)
 		)
 		(path "/00000000-0000-0000-0000-000060ab2e65")
+		(sheetname "Stammblatt")
 		(sheetfile "jbc-miniregler.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20119,7 +20191,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_smd:SW_Push_5.1mm_H1.5mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20131,7 +20203,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2002271431_XKB-Connectivity-TS-1187A-B-A-B_C318884.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20264,6 +20336,7 @@
 			)
 		)
 		(path "/00000000-0000-0000-0000-000060ab2e6b")
+		(sheetname "Stammblatt")
 		(sheetfile "jbc-miniregler.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20724,7 +20797,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -20736,7 +20809,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -20868,6 +20941,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*")
 		(path "/00000000-0000-0000-0000-0000608dbc55/00000000-0000-0000-0000-000060b56081")
 		(sheetname "Messverstärker")
 		(sheetfile "amplifier.kicad_sch")
@@ -21027,7 +21101,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 61 "Net-(R54-Pad2)")
+			(net 85 "Net-(U9A--)")
 			(pinfunction "-")
 			(pintype "input")
 			(uuid "8f3ba491-9f46-41a5-adbb-627eb14dd5ac")
@@ -21037,7 +21111,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 85 "Net-(JP8-Pad2)")
+			(net 56 "Net-(JP8-C)")
 			(pinfunction "+")
 			(pintype "input")
 			(uuid "327d89bb-d3c0-4f24-8ea7-27f88ecd6247")
@@ -21057,7 +21131,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 58 "Net-(R51-Pad2)")
+			(net 73 "Net-(U9B-+)")
 			(pinfunction "+")
 			(pintype "input")
 			(uuid "3e11e3d9-8ac5-4dfe-9bae-bd7673291ec6")
@@ -21067,7 +21141,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 59 "Net-(R52-Pad2)")
+			(net 74 "Net-(U9B--)")
 			(pinfunction "-")
 			(pintype "input")
 			(uuid "f1df96ee-bbb2-4a80-aff6-95a9db99f975")
@@ -21131,7 +21205,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -21421,7 +21495,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 52 "Net-(R41-Pad1)")
+			(net 64 "Net-(U8-LIN)")
 			(pinfunction "LIN")
 			(pintype "input")
 			(uuid "1d8124f1-acc3-4366-b425-baaaf4ffebbc")
@@ -21441,7 +21515,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 55 "Net-(R42-Pad1)")
+			(net 65 "Net-(U8-LO)")
 			(pinfunction "LO")
 			(pintype "output")
 			(uuid "b82b602c-8f67-4f1c-ac6b-ab433222261c")
@@ -21461,7 +21535,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 56 "Net-(R43-Pad2)")
+			(net 72 "Net-(U8-HO)")
 			(pinfunction "HO")
 			(pintype "output")
 			(uuid "95e4b16b-2a25-4d16-916c-00a85a47e3d7")
@@ -21471,7 +21545,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 35 "Net-(C24-Pad1)")
+			(net 35 "Net-(D11-K)")
 			(pinfunction "VB")
 			(pintype "input")
 			(uuid "98562147-1a20-4c9f-9674-034503d38413")
@@ -21516,7 +21590,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_smd:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.514x3.2mm_ThermalVias"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21528,7 +21602,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811081614_XLSEMI-XL7005A_C50848.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21962,7 +22036,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_smd:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.514x3.2mm_ThermalVias"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21974,7 +22048,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811081614_XLSEMI-XL7005A_C50848.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -22406,7 +22480,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_virtual:Virtual-Item"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22515,6 +22589,7 @@
 			)
 		)
 		(path "/00000000-0000-0000-0000-000060b4d7dc")
+		(sheetname "Stammblatt")
 		(sheetfile "jbc-miniregler.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -22586,7 +22661,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.9"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22598,7 +22673,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810261549_AISHI-Aihua-Group-SVZ1EM101E06E00RAXXX_C320569.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22718,6 +22793,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-000060a427ae/00000000-0000-0000-0000-000060a5d7a2")
 		(sheetname "Spannungsregler 12V")
 		(sheetfile "dcdc-12v.kicad_sch")
@@ -23122,7 +23198,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_smd:L_7.3x7.3_H4.5_C216198"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -23134,7 +23210,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811131654_Sunltech-Tech-SLH0704S470MTT_C216198.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -23523,7 +23599,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -23535,7 +23611,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1811151136_Walsin-Tech-Corp-0603B104K160CT_C80516.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -23679,6 +23755,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-0000608dbc3c/00000000-0000-0000-0000-000060b68aea")
 		(sheetname "Arduino")
 		(sheetfile "controller.kicad_sch")
@@ -23799,7 +23876,7 @@
 			(size 1.15 1.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2173904348)
-			(net 33 "Net-(C22-Pad1)")
+			(net 34 "Net-(U6-GPIO10)")
 			(pintype "passive")
 			(uuid "92b0a609-3ef4-4d70-a839-eda0f5ca9edc")
 		)
@@ -23852,7 +23929,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -23864,7 +23941,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1811151136_Walsin-Tech-Corp-0603B104K160CT_C80516.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -24008,6 +24085,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-0000608dbc55/00000000-0000-0000-0000-000060b83398")
 		(sheetname "Messverstärker")
 		(sheetfile "amplifier.kicad_sch")
@@ -24137,7 +24215,7 @@
 			(size 1.15 1.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2173904348)
-			(net 36 "Net-(C25-Pad2)")
+			(net 36 "Net-(D13A-K)")
 			(pintype "passive")
 			(uuid "2f5a4cc0-2d63-4a5f-afd8-f9f157749dfc")
 		)
@@ -24181,7 +24259,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -24193,7 +24271,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -24325,6 +24403,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/00000000-0000-0000-0000-0000608dbc3c/00000000-0000-0000-0000-000060b5f1e3")
 		(sheetname "Arduino")
 		(sheetfile "controller.kicad_sch")
@@ -24492,8 +24571,8 @@
 			(at 1 0 90)
 			(size 0.9 0.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 42 "Net-(D10-Pad3)")
-			(pinfunction "A")
+			(net 44 "Net-(D10A-K)")
+			(pinfunction "K")
 			(pintype "passive")
 			(uuid "d4c3c91f-ddc1-4571-ac76-15990c0059a7")
 		)
@@ -24537,7 +24616,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_smd:SolderJumper-2_2.2x8mm_Open"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -24657,6 +24736,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/00000000-0000-0000-0000-000060beb366/00000000-0000-0000-0000-000060c008b7")
 		(sheetname "Batterie Varianten")
 		(sheetfile "batteries.kicad_sch")
@@ -24790,7 +24870,7 @@
 			(size 1 8)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 44 "Net-(J2-Pad1)")
+			(net 45 "Net-(J2-Pin_1)")
 			(pinfunction "A")
 			(pintype "passive")
 			(zone_connect 2)
@@ -24836,7 +24916,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_smd:SolderJumper-2_2.2x8mm_Open"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -24956,6 +25036,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/00000000-0000-0000-0000-000060beb366/00000000-0000-0000-0000-000060c0b0b9")
 		(sheetname "Batterie Varianten")
 		(sheetfile "batteries.kicad_sch")
@@ -25089,7 +25170,7 @@
 			(size 1 8)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 44 "Net-(J2-Pad1)")
+			(net 45 "Net-(J2-Pin_1)")
 			(pinfunction "A")
 			(pintype "passive")
 			(zone_connect 2)
@@ -25100,7 +25181,7 @@
 			(size 1 8)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 54 "Net-(J7-Pad1)")
+			(net 46 "Net-(J7-Pin_1)")
 			(pinfunction "B")
 			(pintype "passive")
 			(zone_connect 2)
@@ -25135,7 +25216,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -25147,7 +25228,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810311325_FH--Guangdong-Fenghua-Advanced-Tech-RS-06K8202FT_C310365.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -25255,6 +25336,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc3c/00000000-0000-0000-0000-000060b58e3a")
 		(sheetname "Arduino")
 		(sheetfile "controller.kicad_sch")
@@ -25384,7 +25466,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2222195556)
-			(net 42 "Net-(D10-Pad3)")
+			(net 44 "Net-(D10A-K)")
 			(pintype "passive")
 			(uuid "0231a88c-a098-408c-8884-0a96e657c6cc")
 		)
@@ -25428,7 +25510,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -25440,7 +25522,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811101612_TyoHM-RMC1206100K1-N_C269765.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -25548,6 +25630,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc55/00000000-0000-0000-0000-000060b711a2")
 		(sheetname "Messverstärker")
 		(sheetfile "amplifier.kicad_sch")
@@ -25721,7 +25804,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -25733,7 +25816,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811081842_RALEC-RTT06102JTP_C104601.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -25853,6 +25936,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc55/00000000-0000-0000-0000-000060b7d4bd")
 		(sheetname "Messverstärker")
 		(sheetfile "amplifier.kicad_sch")
@@ -25982,7 +26066,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2222195556)
-			(net 36 "Net-(C25-Pad2)")
+			(net 36 "Net-(D13A-K)")
 			(pintype "passive")
 			(uuid "77bb22b9-354c-4957-b40e-558ae275bef1")
 		)
@@ -26024,7 +26108,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_connectors:Federklemme_KF142_3P_P5.08mm_C475145"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -26036,7 +26120,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2001151504_Cixi-Kefa-Elec-KF142R-5-08-3P_C475145.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -26156,7 +26240,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/00000000-0000-0000-0000-000060b4da3d")
+		(sheetname "Stammblatt")
 		(sheetfile "jbc-miniregler.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -26478,7 +26564,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -26490,7 +26576,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810241114_YAGEO-AC1206FR-073K3L_C229599.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -26598,10 +26684,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000060a756e2/00000000-0000-0000-0000-0000609a0bb7")
 		(sheetname "UART RS232/RS485")
 		(sheetfile "uart-rs232-rs485.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.727064 0.91)
 			(end 0.727064 0.91)
@@ -26771,7 +26858,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -26783,7 +26870,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811081842_RALEC-RTT06102JTP_C104601.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -26903,10 +26990,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000060a756e2/00000000-0000-0000-0000-0000609bf4b9")
 		(sheetname "UART RS232/RS485")
 		(sheetfile "uart-rs232-rs485.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.727064 -0.91)
 			(end 0.727064 -0.91)
@@ -27076,7 +27164,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -27088,7 +27176,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811081842_RALEC-RTT06102JTP_C104601.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -27208,10 +27296,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000060a756e2/00000000-0000-0000-0000-0000609c36a8")
 		(sheetname "UART RS232/RS485")
 		(sheetfile "uart-rs232-rs485.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.727064 -0.91)
 			(end 0.727064 -0.91)
@@ -27381,7 +27470,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27453,10 +27542,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000060a756e2/00000000-0000-0000-0000-0000609bc9d3")
 		(sheetname "UART RS232/RS485")
 		(sheetfile "uart-rs232-rs485.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.727064 -0.91)
 			(end 0.727064 -0.91)
@@ -27582,7 +27672,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2222195556)
-			(net 65 "Net-(JP7-Pad2)")
+			(net 54 "Net-(JP7-C)")
 			(pintype "passive")
 			(uuid "c70e366b-9da2-48b9-9eda-856c5ddcaf92")
 		)
@@ -27626,7 +27716,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -27638,7 +27728,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1811151136_Walsin-Tech-Corp-0603B104K160CT_C80516.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -27782,7 +27872,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-000060b228a4")
+		(sheetname "Stammblatt")
 		(sheetfile "jbc-miniregler.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -27952,7 +28044,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_modules:OLED-128x32"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28073,6 +28165,7 @@
 			)
 		)
 		(path "/00000000-0000-0000-0000-000060b32bfd")
+		(sheetname "Stammblatt")
 		(sheetfile "jbc-miniregler.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -28289,7 +28382,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_smd:SW_Push_5.1mm_H1.5mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28301,7 +28394,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2002271431_XKB-Connectivity-TS-1187A-B-A-B_C318884.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28434,6 +28527,7 @@
 			)
 		)
 		(path "/00000000-0000-0000-0000-000060ac53e6")
+		(sheetname "Stammblatt")
 		(sheetfile "jbc-miniregler.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -28894,7 +28988,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28906,7 +29000,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810251120_Samsung-Electro-Mechanics-CL31B104KCFNNNE_C1945.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29026,6 +29120,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-000060a427ae/00000000-0000-0000-0000-000060a5d7a8")
 		(sheetname "Spannungsregler 12V")
 		(sheetfile "dcdc-12v.kicad_sch")
@@ -29197,7 +29292,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_connectors:Federklemme_KF142_3P_P5.08mm_C475145"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -29209,7 +29304,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2001151504_Cixi-Kefa-Elec-KF142R-5-08-3P_C475145.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -29329,7 +29424,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/00000000-0000-0000-0000-0000609b52e2")
+		(sheetname "Stammblatt")
 		(sheetfile "jbc-miniregler.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -29651,7 +29748,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_smd:SolderJumper-2_2.2x8mm_Open"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -29771,6 +29868,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/00000000-0000-0000-0000-000060beb366/00000000-0000-0000-0000-000060c04bcf")
 		(sheetname "Batterie Varianten")
 		(sheetfile "batteries.kicad_sch")
@@ -29915,7 +30013,7 @@
 			(size 1 8)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 54 "Net-(J7-Pad1)")
+			(net 46 "Net-(J7-Pin_1)")
 			(pinfunction "B")
 			(pintype "passive")
 			(zone_connect 2)
@@ -29948,7 +30046,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_virtual:Virtual-Item"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30165,7 +30263,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_smd:D_SMA_wide"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30177,7 +30275,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2101111838_ZHIDE-SS210A-W_C2683692.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30309,6 +30407,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-0000608dbc6e/00000000-0000-0000-0000-000060a01f4e")
 		(sheetname "Leistungsteil")
 		(sheetfile "power-stage.kicad_sch")
@@ -30498,7 +30597,7 @@
 			(at -2 0)
 			(size 2.5 1.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 35 "Net-(C24-Pad1)")
+			(net 35 "Net-(D11-K)")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "1d3ec5c5-0973-4aef-b380-cbe3f69c7426")
@@ -30552,7 +30651,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30564,7 +30663,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30696,6 +30795,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-00006091593e")
 		(sheetname "Stromversorgung")
 		(sheetfile "power-supply.kicad_sch")
@@ -30845,7 +30945,7 @@
 			(at -1 -0.95)
 			(size 0.9 0.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 20 "Net-(C6-Pad2)")
+			(net 20 "Net-(Q2-C)")
 			(pinfunction "G")
 			(pintype "input")
 			(uuid "f1007c09-0844-4adc-97df-4479002b5a93")
@@ -30863,7 +30963,7 @@
 			(at 1 0)
 			(size 0.9 0.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 49 "Net-(Q4-Pad3)")
+			(net 61 "Net-(Q4-D)")
 			(pinfunction "D")
 			(pintype "passive")
 			(uuid "624b07c4-c90e-4eda-ad4b-12aa41f47a62")
@@ -30908,7 +31008,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30920,7 +31020,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811081842_RALEC-RTT06102JTP_C104601.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31040,6 +31140,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-00006095473f")
 		(sheetname "Stromversorgung")
 		(sheetfile "power-supply.kicad_sch")
@@ -31213,7 +31314,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_smd:SW_Push_5.1mm_H1.5mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31225,7 +31326,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2002271431_XKB-Connectivity-TS-1187A-B-A-B_C318884.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31358,6 +31459,7 @@
 			)
 		)
 		(path "/00000000-0000-0000-0000-000060ac53e0")
+		(sheetname "Stammblatt")
 		(sheetfile "jbc-miniregler.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -31818,7 +31920,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -31830,7 +31932,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -31962,6 +32064,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/00000000-0000-0000-0000-0000608dbc55/00000000-0000-0000-0000-000060b76f32")
 		(sheetname "Messverstärker")
 		(sheetfile "amplifier.kicad_sch")
@@ -32129,7 +32232,7 @@
 			(at 1 0 90)
 			(size 0.9 0.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 36 "Net-(C25-Pad2)")
+			(net 36 "Net-(D13A-K)")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "5c82e2e7-04d1-486f-b568-2c4148e78a56")
@@ -32174,7 +32277,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32246,10 +32349,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000060a756e2/00000000-0000-0000-0000-0000609bc636")
 		(sheetname "UART RS232/RS485")
 		(sheetfile "uart-rs232-rs485.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.727064 -0.91)
 			(end 0.727064 -0.91)
@@ -32375,7 +32479,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2222195556)
-			(net 64 "Net-(JP6-Pad2)")
+			(net 52 "Net-(JP6-C)")
 			(pintype "passive")
 			(uuid "dd8d411c-1d6f-4c89-8ba3-4772ec920a55")
 		)
@@ -32419,7 +32523,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32431,7 +32535,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810301936_FH--Guangdong-Fenghua-Advanced-Tech-RS-06K103JT_C118075.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32539,6 +32643,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc3c/00000000-0000-0000-0000-000060b56b92")
 		(sheetname "Arduino")
 		(sheetfile "controller.kicad_sch")
@@ -32668,7 +32773,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2222195556)
-			(net 42 "Net-(D10-Pad3)")
+			(net 44 "Net-(D10A-K)")
 			(pintype "passive")
 			(uuid "a6435222-b144-429b-8c65-a21c000b89c0")
 		)
@@ -32712,7 +32817,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -32724,7 +32829,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810301936_FH--Guangdong-Fenghua-Advanced-Tech-RS-06K103JT_C118075.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -32832,6 +32937,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-000060910786")
 		(sheetname "Stromversorgung")
 		(sheetfile "power-supply.kicad_sch")
@@ -32961,7 +33067,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2222195556)
-			(net 38 "Net-(D3-Pad3)")
+			(net 39 "Net-(D3-K)")
 			(pintype "passive")
 			(uuid "bacf300c-3104-43dd-9a0c-4c0a865acd05")
 		)
@@ -33005,7 +33111,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -33017,7 +33123,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810311130_FH--Guangdong-Fenghua-Advanced-Tech-RS-06K681JT_C140005.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -33125,6 +33231,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-000060a447a8/00000000-0000-0000-0000-000060a48cf8")
 		(sheetname "Spannungsregler 3,3V")
 		(sheetfile "dcdc-3,3v.kicad_sch")
@@ -33254,7 +33361,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2222195556)
-			(net 41 "Net-(D7-Pad2)")
+			(net 42 "Net-(D7-A)")
 			(pintype "passive")
 			(uuid "7465f40f-1081-49ff-bef6-5a9d08878b2c")
 		)
@@ -33296,7 +33403,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_smd:Keystone_5016"
 			(at 0 0 70)
 			(layer "F.Fab")
 			(hide yes)
@@ -33308,7 +33415,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810151521_Keystone-5016_C238129.pdf"
 			(at 0 0 70)
 			(layer "F.Fab")
 			(hide yes)
@@ -33404,10 +33511,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-000060b7ea5b")
 		(sheetname "Stromversorgung")
 		(sheetfile "power-supply.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -2.2 -1.4)
 			(end 2.2 -1.4)
@@ -33587,7 +33695,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_virtual:Virtual-Item"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33732,6 +33840,7 @@
 			)
 		)
 		(path "/00000000-0000-0000-0000-000060c20dea")
+		(sheetname "Stammblatt")
 		(sheetfile "jbc-miniregler.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -33803,7 +33912,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -33815,7 +33924,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F100KT5E_C17928.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -33923,6 +34032,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-000060a621ef")
 		(sheetname "Stromversorgung")
 		(sheetfile "power-supply.kicad_sch")
@@ -34096,7 +34206,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -34216,6 +34326,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/00000000-0000-0000-0000-000060a756e2/60829aca-8dc1-4877-bfa6-c9a37969ad78")
 		(sheetname "UART RS232/RS485")
 		(sheetfile "uart-rs232-rs485.kicad_sch")
@@ -34361,7 +34472,7 @@
 			(at 0 0 180)
 			(size 0.3 0.3)
 			(layers "F.Cu")
-			(net 65 "Net-(JP7-Pad2)")
+			(net 54 "Net-(JP7-C)")
 			(pinfunction "C")
 			(pintype "passive")
 			(zone_connect 2)
@@ -34432,7 +34543,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_smd:D_SMA_wide"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -34444,7 +34555,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2101111838_ZHIDE-SS210A-W_C2683692.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -34576,6 +34687,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-0000608dbc3c/b6d96194-4a41-475d-bb19-023173917b39")
 		(sheetname "Arduino")
 		(sheetfile "controller.kicad_sch")
@@ -34819,7 +34931,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_smd:SW_Push_5.1mm_H1.5mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -34831,7 +34943,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2002271431_XKB-Connectivity-TS-1187A-B-A-B_C318884.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35425,7 +35537,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35437,7 +35549,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2012311806_GOODWORK-SMAJ8-0CA_C908814.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35569,10 +35681,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "D? SO* SM*")
 		(path "/00000000-0000-0000-0000-000060a756e2/00000000-0000-0000-0000-000060a993e0")
 		(sheetname "UART RS232/RS485")
 		(sheetfile "uart-rs232-rs485.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -3.4 -1.65)
 			(end -3.4 1.65)
@@ -35812,7 +35925,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_smd:D_SMA_wide"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -35824,7 +35937,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2101111838_ZHIDE-SS210A-W_C2683692.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -35956,6 +36069,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-0000608dbc6e/00000000-0000-0000-0000-000060d9e4e3")
 		(sheetname "Leistungsteil")
 		(sheetfile "power-stage.kicad_sch")
@@ -36199,7 +36313,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -36319,6 +36433,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/00000000-0000-0000-0000-000060a756e2/ebafb26a-e15e-4ef0-adc7-5b4c31545cb7")
 		(sheetname "UART RS232/RS485")
 		(sheetfile "uart-rs232-rs485.kicad_sch")
@@ -36464,7 +36579,7 @@
 			(at 0 0 180)
 			(size 0.3 0.3)
 			(layers "F.Cu")
-			(net 64 "Net-(JP6-Pad2)")
+			(net 52 "Net-(JP6-C)")
 			(pinfunction "C")
 			(pintype "passive")
 			(zone_connect 2)
@@ -36535,7 +36650,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -36547,7 +36662,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811141436_Ever-Ohms-Tech-CR1206F100RP05Z_C245445.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -36667,6 +36782,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc55/00000000-0000-0000-0000-000060b5b863")
 		(sheetname "Messverstärker")
 		(sheetfile "amplifier.kicad_sch")
@@ -36840,7 +36956,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36852,7 +36968,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811101612_TyoHM-RMC1206100K1-N_C269765.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36972,6 +37088,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc3c/74151849-82bb-48e0-a030-cfc567930e57")
 		(sheetname "Arduino")
 		(sheetfile "controller.kicad_sch")
@@ -37145,7 +37262,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -37157,7 +37274,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1811151136_Walsin-Tech-Corp-0603B104K160CT_C80516.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -37301,10 +37418,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-000060a756e2/00000000-0000-0000-0000-000060992a97")
 		(sheetname "UART RS232/RS485")
 		(sheetfile "uart-rs232-rs485.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.711252 0.91)
 			(end 0.711252 0.91)
@@ -37474,7 +37592,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -37486,7 +37604,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1811151136_Walsin-Tech-Corp-0603B104K160CT_C80516.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -37630,10 +37748,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-000060a756e2/00000000-0000-0000-0000-00005f65efc4")
 		(sheetname "UART RS232/RS485")
 		(sheetfile "uart-rs232-rs485.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.711252 -0.91)
 			(end 0.711252 -0.91)
@@ -37803,7 +37922,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -37887,6 +38006,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc6e/00000000-0000-0000-0000-000060cd69b2")
 		(sheetname "Leistungsteil")
 		(sheetfile "power-stage.kicad_sch")
@@ -38007,7 +38127,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2222222222)
-			(net 50 "Net-(Q5-Pad1)")
+			(net 63 "Net-(Q5-G)")
 			(pintype "passive")
 			(uuid "725724a8-bff6-4474-a315-5055fab169c8")
 		)
@@ -38060,7 +38180,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RPi_Pico:RPi_Pico_SMD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39856,7 +39976,7 @@
 				(offset -0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 33 "Net-(C22-Pad1)")
+			(net 34 "Net-(U6-GPIO10)")
 			(pinfunction "GPIO10")
 			(pintype "bidirectional")
 			(uuid "e835f4a1-c37e-45be-a41b-da414935329a")
@@ -39868,7 +39988,7 @@
 				(offset -0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 86 "unconnected-(U6-Pad15)")
+			(net 96 "unconnected-(U6-GPIO11-Pad15)")
 			(pinfunction "GPIO11")
 			(pintype "bidirectional+no_connect")
 			(uuid "6cdf14c0-69f4-436f-91fa-b26a9c25e022")
@@ -39880,7 +40000,7 @@
 				(offset -0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 88 "unconnected-(U6-Pad16)")
+			(net 98 "unconnected-(U6-GPIO12-Pad16)")
 			(pinfunction "GPIO12")
 			(pintype "bidirectional+no_connect")
 			(uuid "87dc31b4-ca26-4165-8d58-0146164ddb55")
@@ -39892,7 +40012,7 @@
 				(offset -0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 89 "unconnected-(U6-Pad17)")
+			(net 99 "unconnected-(U6-GPIO13-Pad17)")
 			(pinfunction "GPIO13")
 			(pintype "bidirectional+no_connect")
 			(uuid "930f63ac-7c1a-4a61-bf42-e3ecfb3beeac")
@@ -39916,7 +40036,7 @@
 				(offset -0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 90 "unconnected-(U6-Pad19)")
+			(net 93 "unconnected-(U6-GPIO14-Pad19)")
 			(pinfunction "GPIO14")
 			(pintype "bidirectional+no_connect")
 			(uuid "3994cd95-c399-4870-88b9-61fc9988d41c")
@@ -39928,7 +40048,7 @@
 				(offset -0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 91 "unconnected-(U6-Pad20)")
+			(net 91 "unconnected-(U6-GPIO15-Pad20)")
 			(pinfunction "GPIO15")
 			(pintype "bidirectional+no_connect")
 			(uuid "3901f334-1bc3-4a9d-8340-3bd4b7adff0a")
@@ -39940,7 +40060,7 @@
 				(offset 0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 93 "unconnected-(U6-Pad21)")
+			(net 101 "unconnected-(U6-GPIO16-Pad21)")
 			(pinfunction "GPIO16")
 			(pintype "bidirectional+no_connect")
 			(uuid "b558fe8b-57cf-412b-8c74-2217b931f863")
@@ -39952,7 +40072,7 @@
 				(offset 0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 94 "unconnected-(U6-Pad22)")
+			(net 95 "unconnected-(U6-GPIO17-Pad22)")
 			(pinfunction "GPIO17")
 			(pintype "bidirectional+no_connect")
 			(uuid "634abcd5-920b-41ce-9a2a-5ecd99960566")
@@ -39976,7 +40096,7 @@
 				(offset 0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 95 "unconnected-(U6-Pad24)")
+			(net 100 "unconnected-(U6-GPIO18-Pad24)")
 			(pinfunction "GPIO18")
 			(pintype "bidirectional+no_connect")
 			(uuid "9ee41f73-90f9-4c86-b377-03d6db4b2d85")
@@ -39988,7 +40108,7 @@
 				(offset 0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 96 "unconnected-(U6-Pad25)")
+			(net 102 "unconnected-(U6-GPIO19-Pad25)")
 			(pinfunction "GPIO19")
 			(pintype "bidirectional+no_connect")
 			(uuid "c40d2de0-a8e5-43df-9d0f-910a60304952")
@@ -40036,7 +40156,7 @@
 				(offset 0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 97 "unconnected-(U6-Pad29)")
+			(net 94 "unconnected-(U6-GPIO22-Pad29)")
 			(pinfunction "GPIO22")
 			(pintype "bidirectional+no_connect")
 			(uuid "53fa14d7-6af2-417d-bbd8-a71950fe9b0e")
@@ -40120,7 +40240,7 @@
 				(offset 0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 98 "unconnected-(U6-Pad36)")
+			(net 97 "unconnected-(U6-3V3-Pad36)")
 			(pinfunction "3V3")
 			(pintype "unspecified+no_connect")
 			(uuid "7202159a-b8ab-411a-a58f-e7351e0d26af")
@@ -40168,7 +40288,7 @@
 				(offset 0.9 0)
 			)
 			(layers "F.Cu" "F.Mask")
-			(net 99 "unconnected-(U6-Pad40)")
+			(net 90 "unconnected-(U6-VBUS-Pad40)")
 			(pinfunction "VBUS")
 			(pintype "unspecified+no_connect")
 			(uuid "11b5f155-7917-49ef-8929-fa284ab3d48e")
@@ -40238,7 +40358,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -40250,7 +40370,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811141436_Ever-Ohms-Tech-CR1206F100RP05Z_C245445.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -40370,6 +40490,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc55/00000000-0000-0000-0000-000060b5f24f")
 		(sheetname "Messverstärker")
 		(sheetfile "amplifier.kicad_sch")
@@ -40543,7 +40664,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -40555,7 +40676,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811101612_TyoHM-RMC1206100K1-N_C269765.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -40675,6 +40796,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc3c/842d4f98-3f63-487e-a00e-a16871133d48")
 		(sheetname "Arduino")
 		(sheetfile "controller.kicad_sch")
@@ -40848,7 +40970,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -40956,6 +41078,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/00000000-0000-0000-0000-0000608dbc55/b7ddba86-7350-462a-a694-bb3ecb7fe70b")
 		(sheetname "Messverstärker")
 		(sheetfile "amplifier.kicad_sch")
@@ -41101,7 +41224,7 @@
 			(at 0 0 270)
 			(size 0.3 0.3)
 			(layers "F.Cu")
-			(net 85 "Net-(JP8-Pad2)")
+			(net 56 "Net-(JP8-C)")
 			(pinfunction "C")
 			(pintype "passive")
 			(zone_connect 2)
@@ -41124,7 +41247,7 @@
 			(at 2 0 90)
 			(size 0.3 0.3)
 			(layers "F.Cu" "F.Mask")
-			(net 47 "Net-(JP8-Pad3)")
+			(net 55 "Net-(JP8-B)")
 			(pinfunction "B")
 			(pintype "passive")
 			(zone_connect 2)
@@ -41172,7 +41295,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -41184,7 +41307,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006031834_PSA-Prosperity-Dielectrics-FN31X103K500PXG_C525316.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -41304,6 +41427,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-0000608dbc55/00000000-0000-0000-0000-000060b5bfd0")
 		(sheetname "Messverstärker")
 		(sheetfile "amplifier.kicad_sch")
@@ -41477,7 +41601,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -41489,7 +41613,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811141436_Ever-Ohms-Tech-CR1206F100RP05Z_C245445.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -41609,6 +41733,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc55/00000000-0000-0000-0000-000060b5227d")
 		(sheetname "Messverstärker")
 		(sheetfile "amplifier.kicad_sch")
@@ -41729,7 +41854,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2222222222)
-			(net 36 "Net-(C25-Pad2)")
+			(net 36 "Net-(D13A-K)")
 			(pintype "passive")
 			(uuid "659f2cd0-84c8-4caf-9e8c-602173bf12fc")
 		)
@@ -41738,7 +41863,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2222222222)
-			(net 58 "Net-(R51-Pad2)")
+			(net 73 "Net-(U9B-+)")
 			(pintype "passive")
 			(uuid "c3555471-f0d8-4d21-95d0-40e7182bdf10")
 		)
@@ -41782,7 +41907,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -41794,7 +41919,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm4040-n.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -41842,6 +41967,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/00000000-0000-0000-0000-0000608dbc3c/7684c68e-18cf-45dc-9229-91b8f89e81aa")
 		(sheetname "Arduino")
 		(sheetfile "controller.kicad_sch")
@@ -42054,7 +42180,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -42162,6 +42288,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/00000000-0000-0000-0000-0000608dbc55/93f3d41b-99e8-4224-81d3-ab5b214fbdcb")
 		(sheetname "Messverstärker")
 		(sheetfile "amplifier.kicad_sch")
@@ -42307,7 +42434,7 @@
 			(at 0 0 90)
 			(size 0.3 0.3)
 			(layers "F.Cu")
-			(net 87 "Net-(JP9-Pad2)")
+			(net 58 "Net-(JP9-C)")
 			(pinfunction "C")
 			(pintype "passive")
 			(zone_connect 2)
@@ -42330,7 +42457,7 @@
 			(at 2 0 270)
 			(size 0.3 0.3)
 			(layers "F.Cu" "F.Mask")
-			(net 47 "Net-(JP8-Pad3)")
+			(net 55 "Net-(JP8-B)")
 			(pinfunction "B")
 			(pintype "passive")
 			(zone_connect 2)
@@ -42378,7 +42505,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -42390,7 +42517,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811101612_TyoHM-RMC1206100K1-N_C269765.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -42510,6 +42637,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc3c/11f0cb4d-f9ed-4c26-ac27-50847f42a97f")
 		(sheetname "Arduino")
 		(sheetfile "controller.kicad_sch")
@@ -42683,7 +42811,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_smd:SW_Push_5.1mm_H1.5mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -42695,7 +42823,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2002271431_XKB-Connectivity-TS-1187A-B-A-B_C318884.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -43289,7 +43417,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -43301,7 +43429,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -43433,10 +43561,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOIC*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm*")
 		(path "/00000000-0000-0000-0000-000060a756e2/00000000-0000-0000-0000-00005f65ef92")
 		(sheetname "UART RS232/RS485")
 		(sheetfile "uart-rs232-rs485.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 0 -5.06)
 			(end -3.45 -5.06)
@@ -43583,7 +43712,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 34 "Net-(C16-Pad1)")
+			(net 21 "Net-(U4-C1+)")
 			(pinfunction "C1+")
 			(pintype "passive")
 			(uuid "b0b3a352-f03f-4ff3-81ee-e1edf57b0ca4")
@@ -43593,7 +43722,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 32 "Net-(C21-Pad2)")
+			(net 33 "Net-(U4-VS+)")
 			(pinfunction "VS+")
 			(pintype "power_out")
 			(uuid "370837f4-e5a3-4ed7-b42e-ec6248818449")
@@ -43603,7 +43732,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 27 "Net-(C16-Pad2)")
+			(net 27 "Net-(U4-C1-)")
 			(pinfunction "C1-")
 			(pintype "passive")
 			(uuid "a33100c9-5e87-4082-8367-2fdb8e97b088")
@@ -43613,7 +43742,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 46 "Net-(C18-Pad1)")
+			(net 30 "Net-(U4-C2+)")
 			(pinfunction "C2+")
 			(pintype "passive")
 			(uuid "af885824-9386-49c3-85c5-1907225031df")
@@ -43623,7 +43752,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 30 "Net-(C18-Pad2)")
+			(net 31 "Net-(U4-C2-)")
 			(pinfunction "C2-")
 			(pintype "passive")
 			(uuid "cdbeba54-c917-498d-89d9-5333d0e62a24")
@@ -43633,7 +43762,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 31 "Net-(C19-Pad2)")
+			(net 32 "Net-(U4-VS-)")
 			(pinfunction "VS-")
 			(pintype "power_out")
 			(uuid "28d7c969-000e-4a5e-bda4-63b136ac9f59")
@@ -43643,7 +43772,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 63 "unconnected-(U4-Pad7)")
+			(net 86 "unconnected-(U4-T2OUT-Pad7)")
 			(pinfunction "T2OUT")
 			(pintype "output+no_connect")
 			(uuid "1657c26b-d6af-405a-a228-5121208cec85")
@@ -43653,7 +43782,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 72 "unconnected-(U4-Pad8)")
+			(net 88 "unconnected-(U4-R2IN-Pad8)")
 			(pinfunction "R2IN")
 			(pintype "input+no_connect")
 			(uuid "637bbb86-664d-4ca4-8fa2-74bfc7020c92")
@@ -43663,7 +43792,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 73 "unconnected-(U4-Pad9)")
+			(net 87 "unconnected-(U4-R2OUT-Pad9)")
 			(pinfunction "R2OUT")
 			(pintype "output+no_connect")
 			(uuid "4d764007-7755-492f-9257-42a42277697c")
@@ -43673,7 +43802,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 74 "unconnected-(U4-Pad10)")
+			(net 89 "unconnected-(U4-T2IN-Pad10)")
 			(pinfunction "T2IN")
 			(pintype "input+no_connect")
 			(uuid "718485a1-494f-40fc-af9a-2fd6e36ea905")
@@ -43778,7 +43907,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -43790,7 +43919,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810311325_FH--Guangdong-Fenghua-Advanced-Tech-RS-06K2701FT_C310343.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -43898,6 +44027,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/95a30ce8-fd5e-455b-a6ca-35d451b7a519")
 		(sheetname "Stromversorgung")
 		(sheetfile "power-supply.kicad_sch")
@@ -44027,7 +44157,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2222222222)
-			(net 48 "Net-(Q2-Pad2)")
+			(net 59 "Net-(Q2-E)")
 			(pintype "passive")
 			(uuid "2eab067b-6125-4e3f-82ed-164520ee0e6b")
 		)
@@ -44071,7 +44201,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -44191,6 +44321,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/00000000-0000-0000-0000-000060a756e2/b27c338f-3d82-44db-857c-d8204febecc6")
 		(sheetname "UART RS232/RS485")
 		(sheetfile "uart-rs232-rs485.kicad_sch")
@@ -44407,7 +44538,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -44419,7 +44550,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811141436_Ever-Ohms-Tech-CR1206F100RP05Z_C245445.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -44539,6 +44670,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-000060a447a8/63216a0c-fee1-48b0-9e27-57b253f2920f")
 		(sheetname "Spannungsregler 3,3V")
 		(sheetfile "dcdc-3,3v.kicad_sch")
@@ -44712,7 +44844,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -44724,7 +44856,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1811151136_Walsin-Tech-Corp-0603B104K160CT_C80516.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -44892,10 +45024,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-000060a756e2/00000000-0000-0000-0000-00005f65efa4")
 		(sheetname "UART RS232/RS485")
 		(sheetfile "uart-rs232-rs485.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.711252 -0.91)
 			(end 0.711252 -0.91)
@@ -45021,7 +45154,7 @@
 			(size 1.15 1.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2173913043)
-			(net 32 "Net-(C21-Pad2)")
+			(net 33 "Net-(U4-VS+)")
 			(pintype "passive")
 			(uuid "094905a6-05d4-4019-8b9f-492fc33434ac")
 		)
@@ -45065,7 +45198,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -45077,7 +45210,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810241114_YAGEO-AC1206FR-073K3L_C229599.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -45185,6 +45318,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc3c/d4e8eb1a-be03-4ba3-886c-a8b0a1ae759b")
 		(sheetname "Arduino")
 		(sheetfile "controller.kicad_sch")
@@ -45358,7 +45492,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -45370,7 +45504,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810261112_CCTC-TCC1206X7R333K500DT_C309052.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -45490,6 +45624,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-000060a447a8/dd4b4f10-be4f-4047-a2ca-778a25ddb296")
 		(sheetname "Spannungsregler 3,3V")
 		(sheetfile "dcdc-3,3v.kicad_sch")
@@ -45663,7 +45798,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -45783,6 +45918,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/00000000-0000-0000-0000-000060a756e2/af78f95e-6347-4538-8faf-d8e8f46210d1")
 		(sheetname "UART RS232/RS485")
 		(sheetfile "uart-rs232-rs485.kicad_sch")
@@ -45999,7 +46135,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_smd:L_7.3x7.3_H4.5_C216198"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -46011,7 +46147,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811131654_Sunltech-Tech-SLH0704S470MTT_C216198.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -46400,7 +46536,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_smd:D_SMA_wide"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -46412,7 +46548,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2101111838_ZHIDE-SS210A-W_C2683692.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -46544,6 +46680,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-000060a447a8/aade20c6-d37a-4b92-9511-9513b2fcb849")
 		(sheetname "Spannungsregler 3,3V")
 		(sheetfile "dcdc-3,3v.kicad_sch")
@@ -46787,7 +46924,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -46799,7 +46936,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810241114_YAGEO-AC1206FR-073K3L_C229599.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -46907,6 +47044,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc3c/09b9f92c-4132-4193-b156-73556362d041")
 		(sheetname "Arduino")
 		(sheetfile "controller.kicad_sch")
@@ -47080,7 +47218,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -47092,7 +47230,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810301936_FH--Guangdong-Fenghua-Advanced-Tech-RS-06K103JT_C118075.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -47200,10 +47338,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc3c/834a4dbe-7967-405e-98e9-2dab95f07db6")
 		(sheetname "Arduino")
 		(sheetfile "controller.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.727064 0.91)
 			(end 0.727064 0.91)
@@ -47373,7 +47512,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -47385,7 +47524,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2101041032_XINGLIGHT-XL-3216UGC_C965825.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -47517,6 +47656,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-000060a447a8/bea12b0c-d83b-45f1-8191-4713ef5036f4")
 		(sheetname "Spannungsregler 3,3V")
 		(sheetfile "dcdc-3,3v.kicad_sch")
@@ -47667,7 +47807,7 @@
 			(size 1.25 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2)
-			(net 41 "Net-(D7-Pad2)")
+			(net 42 "Net-(D7-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "33c05457-b5ae-47ab-8760-61c0ab65bf29")
@@ -47712,7 +47852,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.9"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -47724,7 +47864,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810261549_AISHI-Aihua-Group-SVZ1EM101E06E00RAXXX_C320569.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -47844,6 +47984,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-000060a447a8/7f82d3e8-c097-4a27-a660-07f8aad0caf4")
 		(sheetname "Spannungsregler 3,3V")
 		(sheetfile "dcdc-3,3v.kicad_sch")
@@ -48248,7 +48389,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -48260,7 +48401,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1811151136_Walsin-Tech-Corp-0603B104K160CT_C80516.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -48428,10 +48569,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-000060a756e2/00000000-0000-0000-0000-00005f65ef98")
 		(sheetname "UART RS232/RS485")
 		(sheetfile "uart-rs232-rs485.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.711252 0.91)
 			(end 0.711252 0.91)
@@ -48548,7 +48690,7 @@
 			(size 1.15 1.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2173913043)
-			(net 46 "Net-(C18-Pad1)")
+			(net 30 "Net-(U4-C2+)")
 			(pintype "passive")
 			(uuid "6767c059-8760-4b94-97a7-f5f333dc7f11")
 		)
@@ -48557,7 +48699,7 @@
 			(size 1.15 1.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2173913043)
-			(net 30 "Net-(C18-Pad2)")
+			(net 31 "Net-(U4-C2-)")
 			(pintype "passive")
 			(uuid "b3a8aa23-9195-40ae-8971-02c0bea65c92")
 		)
@@ -48601,7 +48743,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -48613,7 +48755,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006031834_PSA-Prosperity-Dielectrics-FN31X103K500PXG_C525316.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -48733,6 +48875,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-0000608dbc55/00000000-0000-0000-0000-000060b60804")
 		(sheetname "Messverstärker")
 		(sheetfile "amplifier.kicad_sch")
@@ -48906,7 +49049,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -48918,7 +49061,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1811151136_Walsin-Tech-Corp-0603B104K160CT_C80516.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -49086,10 +49229,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-000060a756e2/00000000-0000-0000-0000-00005f65ef9e")
 		(sheetname "UART RS232/RS485")
 		(sheetfile "uart-rs232-rs485.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.711252 0.91)
 			(end 0.711252 0.91)
@@ -49206,7 +49350,7 @@
 			(size 1.15 1.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2173913043)
-			(net 34 "Net-(C16-Pad1)")
+			(net 21 "Net-(U4-C1+)")
 			(pintype "passive")
 			(uuid "571bd96e-2392-4423-b3cd-6c655fb5b7f1")
 		)
@@ -49215,7 +49359,7 @@
 			(size 1.15 1.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2173913043)
-			(net 27 "Net-(C16-Pad2)")
+			(net 27 "Net-(U4-C1-)")
 			(pintype "passive")
 			(uuid "b2b19d03-aa39-4c94-b530-8e3b2a75b51c")
 		)
@@ -49259,7 +49403,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -49271,7 +49415,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2006151006_GATEMODE-YD3082EESA_C269866.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -49403,10 +49547,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "DIP*W7.62mm* SOIC*3.9x4.9mm*P1.27mm*")
 		(path "/00000000-0000-0000-0000-000060a756e2/00000000-0000-0000-0000-000060976a63")
 		(sheetname "UART RS232/RS485")
 		(sheetfile "uart-rs232-rs485.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 0 2.56)
 			(end 1.95 2.56)
@@ -49668,7 +49813,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.9"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -49680,7 +49825,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810261549_AISHI-Aihua-Group-SVZ1EM101E06E00RAXXX_C320569.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -49800,6 +49945,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/00000000-0000-0000-0000-0000608dbc83/00000000-0000-0000-0000-000060a447a8/fd1330c4-43d8-4e13-be52-1258bc9a8175")
 		(sheetname "Spannungsregler 3,3V")
 		(sheetfile "dcdc-3,3v.kicad_sch")
@@ -50204,7 +50350,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -50216,7 +50362,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811141436_Ever-Ohms-Tech-CR1206F100RP05Z_C245445.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -50336,6 +50482,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc3c/0cb19fd0-197f-4565-b42c-07d42197a39b")
 		(sheetname "Arduino")
 		(sheetfile "controller.kicad_sch")
@@ -50456,7 +50603,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2222222222)
-			(net 42 "Net-(D10-Pad3)")
+			(net 44 "Net-(D10A-K)")
 			(pintype "passive")
 			(uuid "d6aeeaef-2399-467f-9286-30c15a458fd8")
 		)
@@ -50465,7 +50612,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2222222222)
-			(net 33 "Net-(C22-Pad1)")
+			(net 34 "Net-(U6-GPIO10)")
 			(pintype "passive")
 			(uuid "fc251fa5-634f-4e53-bced-9cfc41483da1")
 		)
@@ -50509,7 +50656,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -50521,7 +50668,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810281612_BOOMELE-Boom-Precision-Elec-C5665_C5665.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -50629,10 +50776,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/00000000-0000-0000-0000-0000608dbc3c/a7b22830-97df-4735-8ad9-d29e8d5260e6")
 		(sheetname "Arduino")
 		(sheetfile "controller.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -4.68 -0.5)
 			(end -4.68 0.5)
@@ -51026,7 +51174,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 45 "unconnected-(J9-Pad6)")
+			(net 49 "unconnected-(J9-Pin_6-Pad6)")
 			(pinfunction "Pin_6")
 			(pintype "passive+no_connect")
 			(uuid "da1d16b9-41e7-403c-9cb7-0f0bfe015978")
@@ -51037,7 +51185,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 100 "unconnected-(J9-Pad7)")
+			(net 48 "unconnected-(J9-Pin_7-Pad7)")
 			(pinfunction "Pin_7")
 			(pintype "passive+no_connect")
 			(uuid "9e2447e2-73fe-4735-93bd-bbbb88d4862c")
@@ -51048,7 +51196,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 101 "unconnected-(J9-Pad8)")
+			(net 47 "unconnected-(J9-Pin_8-Pad8)")
 			(pinfunction "Pin_8")
 			(pintype "passive+no_connect")
 			(uuid "9a0d4e6f-84b9-4337-8266-a26e75eef30f")
@@ -51070,7 +51218,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 102 "unconnected-(J9-Pad10)")
+			(net 50 "unconnected-(J9-Pin_10-Pad10)")
 			(pinfunction "Pin_10")
 			(pintype "passive+no_connect")
 			(uuid "f3837bf9-6916-4c6f-88f1-1585171001e2")
@@ -51115,7 +51263,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -51127,7 +51275,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/1811151136_Walsin-Tech-Corp-0603B104K160CT_C80516.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -51295,10 +51443,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-000060a756e2/00000000-0000-0000-0000-00005f65efaa")
 		(sheetname "UART RS232/RS485")
 		(sheetfile "uart-rs232-rs485.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.711252 0.91)
 			(end 0.711252 0.91)
@@ -51424,7 +51573,7 @@
 			(size 1.15 1.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2173913043)
-			(net 31 "Net-(C19-Pad2)")
+			(net 32 "Net-(U4-VS-)")
 			(pintype "passive")
 			(uuid "26bed6dc-e1d2-4077-8af2-bf9127afab94")
 		)
@@ -51468,7 +51617,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -51480,7 +51629,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811141436_Ever-Ohms-Tech-CR1206F100RP05Z_C245445.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -51600,6 +51749,7 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000608dbc55/00000000-0000-0000-0000-000060b4b696")
 		(sheetname "Messverstärker")
 		(sheetfile "amplifier.kicad_sch")
@@ -51720,7 +51870,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2222222222)
-			(net 37 "Net-(C26-Pad1)")
+			(net 37 "Net-(D14A-K)")
 			(pintype "passive")
 			(uuid "ef78ef2f-9632-467b-a957-cb8f6bbfdcec")
 		)
@@ -51729,7 +51879,7 @@
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2222222222)
-			(net 47 "Net-(JP8-Pad3)")
+			(net 55 "Net-(JP8-B)")
 			(pintype "passive")
 			(uuid "23e48e30-37e7-4796-a630-47f7763b2e23")
 		)
@@ -51774,7 +51924,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_connectors:Faston_Tab_6.3mm_vertical"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -51914,6 +52064,7 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-000060beb366/00000000-0000-0000-0000-000060bece77")
 		(sheetname "Batterie Varianten")
 		(sheetfile "batteries.kicad_sch")
@@ -52044,7 +52195,7 @@
 			(drill 1.4)
 			(layers "*.Cu" "*.Mask" "B.SilkS")
 			(remove_unused_layers no)
-			(net 44 "Net-(J2-Pad1)")
+			(net 45 "Net-(J2-Pin_1)")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "383855e6-6818-400a-b00f-20805aba361b")
@@ -52055,7 +52206,7 @@
 			(drill 1.4)
 			(layers "*.Cu" "*.Mask" "B.SilkS")
 			(remove_unused_layers no)
-			(net 44 "Net-(J2-Pad1)")
+			(net 45 "Net-(J2-Pin_1)")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "11572532-c044-4e53-96f9-274a4b4f4569")
@@ -52101,7 +52252,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_connectors:Faston_Tab_6.3mm_vertical"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -52241,6 +52392,7 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-000060beb366/00000000-0000-0000-0000-000060bece66")
 		(sheetname "Batterie Varianten")
 		(sheetfile "batteries.kicad_sch")
@@ -52428,7 +52580,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_connectors:Faston_Tab_6.3mm_vertical"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -52568,6 +52720,7 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-000060beb366/00000000-0000-0000-0000-000060a928ec")
 		(sheetname "Batterie Varianten")
 		(sheetfile "batteries.kicad_sch")
@@ -52755,7 +52908,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_connectors:Faston_Tab_6.3mm_vertical"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -52895,6 +53048,7 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-000060beb366/00000000-0000-0000-0000-000060a92bd7")
 		(sheetname "Batterie Varianten")
 		(sheetfile "batteries.kicad_sch")
@@ -53082,7 +53236,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_connectors:Faston_Tab_6.3mm_vertical"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -53222,6 +53376,7 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-000060beb366/00000000-0000-0000-0000-000060bece59")
 		(sheetname "Batterie Varianten")
 		(sheetfile "batteries.kicad_sch")
@@ -53409,7 +53564,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_connectors:Faston_Tab_6.3mm_vertical"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -53549,6 +53704,7 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-000060beb366/00000000-0000-0000-0000-000060bfda2c")
 		(sheetname "Batterie Varianten")
 		(sheetfile "batteries.kicad_sch")
@@ -53736,7 +53892,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_connectors:Faston_Tab_6.3mm_vertical"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -53876,6 +54032,7 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-000060beb366/00000000-0000-0000-0000-000060bece5f")
 		(sheetname "Batterie Varianten")
 		(sheetfile "batteries.kicad_sch")
@@ -54063,7 +54220,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "htl_connectors:Faston_Tab_6.3mm_vertical"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -54203,6 +54360,7 @@
 				(justify mirror)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-000060beb366/00000000-0000-0000-0000-000060c02043")
 		(sheetname "Batterie Varianten")
 		(sheetfile "batteries.kicad_sch")
@@ -54333,7 +54491,7 @@
 			(drill 1.4)
 			(layers "*.Cu" "*.Mask" "B.SilkS")
 			(remove_unused_layers no)
-			(net 54 "Net-(J7-Pad1)")
+			(net 46 "Net-(J7-Pin_1)")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "ffa8477c-ed2b-4595-96ea-153413d82ad7")
@@ -54344,7 +54502,7 @@
 			(drill 1.4)
 			(layers "*.Cu" "*.Mask" "B.SilkS")
 			(remove_unused_layers no)
-			(net 54 "Net-(J7-Pad1)")
+			(net 46 "Net-(J7-Pin_1)")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "e0582694-bdbb-4acb-bc13-55ff810ff211")
@@ -59834,12 +59992,20 @@
 		(uuid "e20ee34a-0787-47ae-a192-869b4754c7d9")
 	)
 	(segment
-		(start 158.75 52.5375)
-		(end 158.75 48.9)
-		(width 0.25)
+		(start 165.2498 115.5)
+		(end 168.47 115.5)
+		(width 0.15)
 		(layer "F.Cu")
 		(net 21)
-		(uuid "35aeb1bf-0227-4140-8b38-72ea2aea2185")
+		(uuid "9250be90-5643-46ba-baf9-341496f83955")
+	)
+	(segment
+		(start 165 115.7498)
+		(end 165.2498 115.5)
+		(width 0.15)
+		(layer "F.Cu")
+		(net 21)
+		(uuid "f79652b8-89a7-42a3-8e3e-8ba3275dac0a")
 	)
 	(segment
 		(start 104.7125 123.5)
@@ -61026,11 +61192,43 @@
 		(uuid "ddc42770-0595-417d-81f8-3fb12391a126")
 	)
 	(segment
+		(start 167.385 119.365)
+		(end 168.525 119.365)
+		(width 0.15)
+		(layer "F.Cu")
+		(net 30)
+		(uuid "b846dd38-c163-424c-a0eb-838ef4cc1b07")
+	)
+	(segment
+		(start 165.025 120.5)
+		(end 166.25 120.5)
+		(width 0.15)
+		(layer "F.Cu")
+		(net 30)
+		(uuid "be4a6f91-a403-4140-914b-0c1f959f130a")
+	)
+	(segment
+		(start 165 120.525)
+		(end 165.025 120.5)
+		(width 0.15)
+		(layer "F.Cu")
+		(net 30)
+		(uuid "be6dbc78-9e1b-42ea-9852-e283fd0184aa")
+	)
+	(segment
+		(start 166.25 120.5)
+		(end 167.385 119.365)
+		(width 0.15)
+		(layer "F.Cu")
+		(net 30)
+		(uuid "c384d663-098e-4f2a-be3c-fa98b9f868e3")
+	)
+	(segment
 		(start 166.865 120.635)
 		(end 168.525 120.635)
 		(width 0.15)
 		(layer "F.Cu")
-		(net 30)
+		(net 31)
 		(uuid "42221249-e9fc-45ba-bb76-79b5d081350b")
 	)
 	(segment
@@ -61038,7 +61236,7 @@
 		(end 166.865 120.635)
 		(width 0.15)
 		(layer "F.Cu")
-		(net 30)
+		(net 31)
 		(uuid "58345d9b-7bc8-484f-a115-4a53d58bef45")
 	)
 	(segment
@@ -61046,7 +61244,7 @@
 		(end 165 122.5)
 		(width 0.15)
 		(layer "F.Cu")
-		(net 30)
+		(net 31)
 		(uuid "a8e0be22-3411-4f22-bf36-7dada7f07deb")
 	)
 	(segment
@@ -61054,7 +61252,7 @@
 		(end 163.436 124.5)
 		(width 0.15)
 		(layer "F.Cu")
-		(net 31)
+		(net 32)
 		(uuid "20bf7f51-e8a4-4a5a-953b-ea4e3d19e705")
 	)
 	(segment
@@ -61062,7 +61260,7 @@
 		(end 167.095 121.905)
 		(width 0.15)
 		(layer "F.Cu")
-		(net 31)
+		(net 32)
 		(uuid "25d13dc4-7e8e-4e0b-afd8-fac2f395f258")
 	)
 	(segment
@@ -61070,7 +61268,7 @@
 		(end 166.75 122.25)
 		(width 0.15)
 		(layer "F.Cu")
-		(net 31)
+		(net 32)
 		(uuid "51020d86-00a5-4b95-9311-5bf66287caea")
 	)
 	(segment
@@ -61078,7 +61276,7 @@
 		(end 166.75 124)
 		(width 0.15)
 		(layer "F.Cu")
-		(net 31)
+		(net 32)
 		(uuid "677474f1-5e9a-455b-8046-96722683ba1c")
 	)
 	(segment
@@ -61086,7 +61284,7 @@
 		(end 168.525 121.905)
 		(width 0.15)
 		(layer "F.Cu")
-		(net 31)
+		(net 32)
 		(uuid "e8eeaab8-c2c1-401b-a50c-61c0c6077a23")
 	)
 	(segment
@@ -61094,7 +61292,7 @@
 		(end 166.25 124.5)
 		(width 0.15)
 		(layer "F.Cu")
-		(net 31)
+		(net 32)
 		(uuid "fa96e1ad-2f9a-4658-b89f-f2cfc58ec028")
 	)
 	(segment
@@ -61102,7 +61300,7 @@
 		(end 168.35 117)
 		(width 0.15)
 		(layer "F.Cu")
-		(net 32)
+		(net 33)
 		(uuid "28e6bcae-fd82-4401-b857-65d3ac26383a")
 	)
 	(segment
@@ -61110,7 +61308,7 @@
 		(end 162.75 117)
 		(width 0.15)
 		(layer "F.Cu")
-		(net 32)
+		(net 33)
 		(uuid "7d4aaaae-8898-4ff5-820c-117e1a8a2a3c")
 	)
 	(segment
@@ -61118,7 +61316,7 @@
 		(end 162.5 115.7624)
 		(width 0.15)
 		(layer "F.Cu")
-		(net 32)
+		(net 33)
 		(uuid "8b5f6586-c4f4-46e4-85e6-ab661f196c57")
 	)
 	(segment
@@ -61126,7 +61324,7 @@
 		(end 162.5 116.75)
 		(width 0.15)
 		(layer "F.Cu")
-		(net 32)
+		(net 33)
 		(uuid "957571bc-184f-40e1-ace8-c44a2f4dd495")
 	)
 	(segment
@@ -61134,7 +61332,7 @@
 		(end 168.525 116.825)
 		(width 0.15)
 		(layer "F.Cu")
-		(net 32)
+		(net 33)
 		(uuid "b9bc313b-e29a-4377-a948-9ed4e7fa68c5")
 	)
 	(segment
@@ -61142,7 +61340,7 @@
 		(end 160.25 79.225)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 33)
+		(net 34)
 		(uuid "08c1668c-4950-4b19-a350-6096c7469eae")
 	)
 	(segment
@@ -61150,7 +61348,7 @@
 		(end 160.25 79.225)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 33)
+		(net 34)
 		(uuid "4420ecab-f7e5-49c7-943d-af64fbe2f3f1")
 	)
 	(segment
@@ -61158,7 +61356,7 @@
 		(end 160.585 78.89)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 33)
+		(net 34)
 		(uuid "45eebf46-7d73-4d34-a289-e09784da98cf")
 	)
 	(segment
@@ -61166,24 +61364,8 @@
 		(end 159.75 79.725)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 33)
+		(net 34)
 		(uuid "aa6730c4-f875-4ce0-926b-ea233a238f2a")
-	)
-	(segment
-		(start 165.2498 115.5)
-		(end 168.47 115.5)
-		(width 0.15)
-		(layer "F.Cu")
-		(net 34)
-		(uuid "9250be90-5643-46ba-baf9-341496f83955")
-	)
-	(segment
-		(start 165 115.7498)
-		(end 165.2498 115.5)
-		(width 0.15)
-		(layer "F.Cu")
-		(net 34)
-		(uuid "f79652b8-89a7-42a3-8e3e-8ba3275dac0a")
 	)
 	(segment
 		(start 143.25 140.25)
@@ -61386,11 +61568,19 @@
 		(uuid "dcdea2e7-e3a7-4dfb-88f0-5a6d26004b08")
 	)
 	(segment
+		(start 158.75 52.5375)
+		(end 158.75 48.9)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 38)
+		(uuid "35aeb1bf-0227-4140-8b38-72ea2aea2185")
+	)
+	(segment
 		(start 111.75 62.6725)
 		(end 111.9225 62.5)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 38)
+		(net 39)
 		(uuid "03e8e98f-a7bc-4c9d-8d5c-8361467833b5")
 	)
 	(segment
@@ -61398,7 +61588,7 @@
 		(end 120.4955 66.85001)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 38)
+		(net 39)
 		(uuid "0e79954d-35fc-4ee8-b155-1792c55817a6")
 	)
 	(segment
@@ -61406,7 +61596,7 @@
 		(end 120.396 66.94951)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 38)
+		(net 39)
 		(uuid "3ba49f51-134b-4a0e-a74d-fdc0949394a5")
 	)
 	(segment
@@ -61414,7 +61604,7 @@
 		(end 125.75 67.584)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 38)
+		(net 39)
 		(uuid "467f14df-f1df-4839-89ab-b7c8d81722dc")
 	)
 	(segment
@@ -61422,7 +61612,7 @@
 		(end 112.157 63.0795)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 38)
+		(net 39)
 		(uuid "642ed7db-66d1-4f12-8a60-79237560e8dc")
 	)
 	(segment
@@ -61430,7 +61620,7 @@
 		(end 118 62.55)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 38)
+		(net 39)
 		(uuid "6a4c9bc0-df1a-42d7-8ba5-dd0cfa48e6b0")
 	)
 	(segment
@@ -61438,7 +61628,7 @@
 		(end 108.712 62.992)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 38)
+		(net 39)
 		(uuid "7f2ba751-7760-469d-a244-a1516a37e7db")
 	)
 	(segment
@@ -61446,7 +61636,7 @@
 		(end 115.25 62.5)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 38)
+		(net 39)
 		(uuid "b69b4688-947a-4d26-8062-b27ccbec8d80")
 	)
 	(segment
@@ -61454,7 +61644,7 @@
 		(end 111.75 62.6725)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 38)
+		(net 39)
 		(uuid "c57718f4-4bd2-4ee1-a183-e445b401a48a")
 	)
 	(segment
@@ -61462,7 +61652,7 @@
 		(end 125.01601 66.85001)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 38)
+		(net 39)
 		(uuid "c5e594c7-6a8b-4687-a83f-35b4cf228e35")
 	)
 	(segment
@@ -61470,7 +61660,7 @@
 		(end 117.95 62.5)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 38)
+		(net 39)
 		(uuid "c84b133b-0e3d-4086-af30-443dbf804668")
 	)
 	(segment
@@ -61478,7 +61668,7 @@
 		(end 111.4305 62.992)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 38)
+		(net 39)
 		(uuid "d93a14f3-1bf7-413f-b204-002a52897e3b")
 	)
 	(segment
@@ -61486,7 +61676,7 @@
 		(end 107.884 63.82)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 38)
+		(net 39)
 		(uuid "ddfc5c44-f3d5-45b4-8972-823b07f28254")
 	)
 	(segment
@@ -61494,7 +61684,7 @@
 		(end 111.75 62.6725)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 38)
+		(net 39)
 		(uuid "f34f54c4-4407-4963-a4e3-d1949a33fc0f")
 	)
 	(via
@@ -61502,7 +61692,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
-		(net 38)
+		(net 39)
 		(uuid "5ab19d1e-8efc-40a7-9162-0d4bb7e56b23")
 	)
 	(via
@@ -61510,7 +61700,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
-		(net 38)
+		(net 39)
 		(uuid "f389471b-89bb-4257-b52a-babdec636693")
 	)
 	(segment
@@ -61518,7 +61708,7 @@
 		(end 118.644095 63.0795)
 		(width 0.25)
 		(layer "B.Cu")
-		(net 38)
+		(net 39)
 		(uuid "05068571-7f82-49bc-97cc-db64964c39c6")
 	)
 	(segment
@@ -61526,7 +61716,7 @@
 		(end 120.396 64.831405)
 		(width 0.25)
 		(layer "B.Cu")
-		(net 38)
+		(net 39)
 		(uuid "77569601-3bac-456c-b2ac-8c6e00b8dc1d")
 	)
 	(segment
@@ -61534,7 +61724,7 @@
 		(end 113.792 63.0795)
 		(width 0.25)
 		(layer "B.Cu")
-		(net 38)
+		(net 39)
 		(uuid "8458193b-fbc9-47b5-8da3-ee75ae22c210")
 	)
 	(segment
@@ -61542,7 +61732,7 @@
 		(end 199.25 129.75)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 39)
+		(net 41)
 		(uuid "09dc716d-b765-47cf-b76d-e748853f0dc3")
 	)
 	(segment
@@ -61550,7 +61740,7 @@
 		(end 197.5 130)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 39)
+		(net 41)
 		(uuid "1d6af49d-d122-4cd7-9cce-e722806d4791")
 	)
 	(segment
@@ -61558,7 +61748,7 @@
 		(end 197 130.5)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 39)
+		(net 41)
 		(uuid "23fd4de4-c8c6-4600-bb84-48861c96eee0")
 	)
 	(segment
@@ -61566,7 +61756,7 @@
 		(end 199.25 128.6)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 39)
+		(net 41)
 		(uuid "92e8c99e-7d09-439a-b1bb-8c374420b47b")
 	)
 	(segment
@@ -61574,7 +61764,7 @@
 		(end 199 130)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 39)
+		(net 41)
 		(uuid "e4814386-ad7c-46b0-bb4c-c6681c01d54d")
 	)
 	(segment
@@ -61582,7 +61772,7 @@
 		(end 199 124)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 41)
+		(net 42)
 		(uuid "00000000-0000-0000-0000-000060b4bb01")
 	)
 	(segment
@@ -61590,7 +61780,7 @@
 		(end 199.25 123.75)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 41)
+		(net 42)
 		(uuid "48ac5ee9-79f5-4a74-b6d8-b11dcdc61152")
 	)
 	(segment
@@ -61598,7 +61788,7 @@
 		(end 197 124.25)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 41)
+		(net 42)
 		(uuid "c01e981a-0c4a-4158-b381-19932a5f8aeb")
 	)
 	(segment
@@ -61606,7 +61796,7 @@
 		(end 197.25 124)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 41)
+		(net 42)
 		(uuid "df48fa57-9a58-4bf3-8188-414148f82b7c")
 	)
 	(segment
@@ -61614,7 +61804,7 @@
 		(end 199.25 122.6)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 41)
+		(net 42)
 		(uuid "f1555942-90dd-43ad-b34d-d31cbdd69004")
 	)
 	(segment
@@ -61622,7 +61812,7 @@
 		(end 153.85 86)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 42)
+		(net 44)
 		(uuid "1c159400-fb0f-495d-bed6-26b3a737009a")
 	)
 	(segment
@@ -61630,7 +61820,7 @@
 		(end 159.75 91.4625)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 42)
+		(net 44)
 		(uuid "2dc1c0d6-43c9-4d44-91f7-1374ea083852")
 	)
 	(segment
@@ -61638,7 +61828,7 @@
 		(end 159.7125 91.5)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 42)
+		(net 44)
 		(uuid "617d77ef-5020-4de6-8300-87a3b14a2590")
 	)
 	(segment
@@ -61646,7 +61836,7 @@
 		(end 154.5 88.25)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 42)
+		(net 44)
 		(uuid "7dc2fd73-2ed2-4962-8c43-7dd5c773b54b")
 	)
 	(segment
@@ -61654,7 +61844,7 @@
 		(end 153.85 87.6)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 42)
+		(net 44)
 		(uuid "93f8007f-2ada-4e22-83ac-d6dc53d3ac1a")
 	)
 	(segment
@@ -61662,7 +61852,7 @@
 		(end 155.25 90.7)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 42)
+		(net 44)
 		(uuid "afd6748f-2d58-41be-92ce-cdbe4b9ca226")
 	)
 	(segment
@@ -61670,7 +61860,7 @@
 		(end 153.85 86)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 42)
+		(net 44)
 		(uuid "b68820b7-557b-478f-8929-4f5759ac2fec")
 	)
 	(segment
@@ -61678,296 +61868,8 @@
 		(end 156.05 91.5)
 		(width 0.25)
 		(layer "F.Cu")
-		(net 42)
+		(net 44)
 		(uuid "f2c16ea9-5fa4-4994-a106-1f3cbcc5ee4c")
-	)
-	(segment
-		(start 167.385 119.365)
-		(end 168.525 119.365)
-		(width 0.15)
-		(layer "F.Cu")
-		(net 46)
-		(uuid "b846dd38-c163-424c-a0eb-838ef4cc1b07")
-	)
-	(segment
-		(start 165.025 120.5)
-		(end 166.25 120.5)
-		(width 0.15)
-		(layer "F.Cu")
-		(net 46)
-		(uuid "be4a6f91-a403-4140-914b-0c1f959f130a")
-	)
-	(segment
-		(start 165 120.525)
-		(end 165.025 120.5)
-		(width 0.15)
-		(layer "F.Cu")
-		(net 46)
-		(uuid "be6dbc78-9e1b-42ea-9852-e283fd0184aa")
-	)
-	(segment
-		(start 166.25 120.5)
-		(end 167.385 119.365)
-		(width 0.15)
-		(layer "F.Cu")
-		(net 46)
-		(uuid "c384d663-098e-4f2a-be3c-fa98b9f868e3")
-	)
-	(segment
-		(start 102.5 116.4)
-		(end 102.5 119.3)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 47)
-		(uuid "0a6f9282-5d0f-4740-a7cf-3d77d3a666fb")
-	)
-	(segment
-		(start 100 119.5)
-		(end 100.75 119.5)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 47)
-		(uuid "1c4194ca-610f-4e62-9ff8-706b3e318929")
-	)
-	(segment
-		(start 99.099991 118.599991)
-		(end 100 119.5)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 47)
-		(uuid "25d2a039-1f15-45df-b7aa-55871c58a4c8")
-	)
-	(segment
-		(start 102.5 119.3)
-		(end 102.3 119.5)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 47)
-		(uuid "3f6c4f0e-186e-420b-a032-699850b833f4")
-	)
-	(segment
-		(start 98 115.5)
-		(end 98.75 115.5)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 47)
-		(uuid "802f9693-1905-4377-93ef-8030db074991")
-	)
-	(segment
-		(start 98.75 115.5)
-		(end 99.099991 115.849991)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 47)
-		(uuid "8bcc7923-5f05-445c-84ef-ef3fe5a965e4")
-	)
-	(segment
-		(start 102.3 119.5)
-		(end 100.75 119.5)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 47)
-		(uuid "a6bc1a41-c5fb-4082-b8e6-778103fb85ee")
-	)
-	(segment
-		(start 104.5 116.0375)
-		(end 102.8625 116.0375)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 47)
-		(uuid "b18fce52-ef22-4e8b-8e1d-c8e4824620d9")
-	)
-	(segment
-		(start 102.8625 116.0375)
-		(end 102.5 116.4)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 47)
-		(uuid "b73b91c1-908b-46f2-bd61-7aa5cc66cdfe")
-	)
-	(segment
-		(start 99.099991 115.849991)
-		(end 99.099991 118.599991)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 47)
-		(uuid "ba49e307-9d48-4ddd-b0fa-1bea3dd51306")
-	)
-	(segment
-		(start 119.06 64.45)
-		(end 119.126 64.516)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 48)
-		(uuid "26c35652-0ee9-4585-9abb-1d0b723b0602")
-	)
-	(segment
-		(start 118.618 67.818)
-		(end 117.5405 67.818)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 48)
-		(uuid "3f0e14ef-c9de-4396-9107-cf6a6ffd9e3b")
-	)
-	(segment
-		(start 121.75 64.45)
-		(end 118 64.45)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 48)
-		(uuid "60bc73f0-0841-446b-b435-9a0c4245dac3")
-	)
-	(segment
-		(start 118 64.45)
-		(end 119.06 64.45)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 48)
-		(uuid "86c44292-dc8d-4e64-afa1-39969a36546d")
-	)
-	(via
-		(at 118.618 67.818)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(net 48)
-		(uuid "19025655-5621-479d-b193-4c5415d7a366")
-	)
-	(via
-		(at 119.126 64.516)
-		(size 0.8)
-		(drill 0.4)
-		(layers "F.Cu" "B.Cu")
-		(net 48)
-		(uuid "66296954-a809-472b-a180-d14d0cb3a5bd")
-	)
-	(segment
-		(start 119.126 67.31)
-		(end 118.618 67.818)
-		(width 0.25)
-		(layer "B.Cu")
-		(net 48)
-		(uuid "90a16573-2402-44ea-8b95-6a5e2f25d47c")
-	)
-	(segment
-		(start 119.126 64.516)
-		(end 119.126 67.31)
-		(width 0.25)
-		(layer "B.Cu")
-		(net 48)
-		(uuid "d902d0f4-00d2-408f-8d8e-6710775dfce4")
-	)
-	(segment
-		(start 148.35 95.75)
-		(end 146.25 95.75)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 49)
-		(uuid "25c87c41-aad0-4b6a-9b7f-8ba29f7b79e9")
-	)
-	(segment
-		(start 144.75 99)
-		(end 146.25 97.5)
-		(width 1)
-		(layer "F.Cu")
-		(net 49)
-		(uuid "6376a517-7fbe-4583-bb09-778391f7de33")
-	)
-	(segment
-		(start 146.25 97.5)
-		(end 146.25 95.75)
-		(width 1)
-		(layer "F.Cu")
-		(net 49)
-		(uuid "945d9733-3411-4c3c-98d8-3619d997df60")
-	)
-	(segment
-		(start 144.75 100.35)
-		(end 144.75 99)
-		(width 1)
-		(layer "F.Cu")
-		(net 49)
-		(uuid "db264c6c-b53a-4dbc-98cf-cc8a834b6eca")
-	)
-	(segment
-		(start 130.0375 139.925)
-		(end 130.75 139.2125)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 50)
-		(uuid "194f97df-18be-463e-beb0-7623f195812e")
-	)
-	(segment
-		(start 119.00003 135.25)
-		(end 120 136.24997)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 50)
-		(uuid "22b72740-8a16-4ded-9b12-793f64b63b48")
-	)
-	(segment
-		(start 130.0375 141.5)
-		(end 130.0375 139.925)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 50)
-		(uuid "a4ab047d-fd65-485d-803c-1b9e687726a0")
-	)
-	(segment
-		(start 118.25 135.25)
-		(end 119.00003 135.25)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 50)
-		(uuid "b508aa79-4e38-4939-b845-760198475688")
-	)
-	(segment
-		(start 130.1 141.5)
-		(end 127.000004 141.5)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 50)
-		(uuid "b69d36a0-6cfe-4a6c-ad09-425ef758687c")
-	)
-	(segment
-		(start 127.000004 141.5)
-		(end 126.750004 141.25)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 50)
-		(uuid "e819a4cd-d88c-4236-9a27-1cebf1c556b6")
-	)
-	(via
-		(at 126.750004 141.25)
-		(size 0.9)
-		(drill 0.5)
-		(layers "F.Cu" "B.Cu")
-		(net 50)
-		(uuid "04f04a11-b6d0-4a11-b427-fd56137e1d71")
-	)
-	(via
-		(at 120 136.24997)
-		(size 0.9)
-		(drill 0.5)
-		(layers "F.Cu" "B.Cu")
-		(net 50)
-		(uuid "846f11ce-d646-46ee-91af-9d09f1356ee8")
-	)
-	(segment
-		(start 120 136.24997)
-		(end 121.749974 136.24997)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 50)
-		(uuid "b7955683-a0ba-409b-8ec8-e9710d750366")
-	)
-	(segment
-		(start 121.749974 136.24997)
-		(end 126.750004 141.25)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 50)
-		(uuid "bcf6e709-1b43-4521-bd7c-7c6881f4f5bc")
 	)
 	(segment
 		(start 163.322 139.584688)
@@ -62034,44 +61936,28 @@
 		(uuid "d67a69ac-b181-4f06-bb05-eacba99bfb9c")
 	)
 	(segment
-		(start 142.9193 137.865)
-		(end 145.75 135.0343)
-		(width 0.25)
+		(start 166 105)
+		(end 166 104)
+		(width 0.15)
 		(layer "F.Cu")
 		(net 52)
-		(uuid "1c44f60a-c39b-4f6d-a27f-ac83feb09cf3")
+		(uuid "1f5591e5-256f-4430-85c7-30cb5de5e72f")
 	)
 	(segment
-		(start 145.75 133.1)
-		(end 146.6 132.25)
-		(width 0.25)
+		(start 165.4625 107)
+		(end 165.4625 105.5375)
+		(width 0.15)
 		(layer "F.Cu")
 		(net 52)
-		(uuid "67e8ea7c-287b-4593-a359-63ecdff45a90")
+		(uuid "a7999b23-ea6b-4c7c-8e04-4a777cda452f")
 	)
 	(segment
-		(start 145.75 135.0343)
-		(end 145.75 133.1)
-		(width 0.25)
+		(start 165.4625 105.5375)
+		(end 166 105)
+		(width 0.15)
 		(layer "F.Cu")
 		(net 52)
-		(uuid "d104f068-eb05-40ad-a385-a28a9301b8a6")
-	)
-	(segment
-		(start 146.6 132.25)
-		(end 146.85 132.25)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 52)
-		(uuid "d7756812-b65a-4818-bd72-23d2d1e5d501")
-	)
-	(segment
-		(start 140.975 137.865)
-		(end 142.9193 137.865)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 52)
-		(uuid "e22570a7-1184-43ce-a1ee-ec5758e3f04c")
+		(uuid "bc0d79a6-92ff-497c-a27b-c300ab96f3df")
 	)
 	(segment
 		(start 145 70.84)
@@ -62106,60 +61992,156 @@
 		(uuid "e636adef-7eef-4b1f-8867-76e749e94cd1")
 	)
 	(segment
-		(start 136.025 134.825)
-		(end 138.6 132.25)
-		(width 0.5)
+		(start 174.4625 104.5375)
+		(end 175 104)
+		(width 0.15)
+		(layer "F.Cu")
+		(net 54)
+		(uuid "49218cd2-feea-4cfa-a641-0bcb1147ea6e")
+	)
+	(segment
+		(start 174.4625 107)
+		(end 174.4625 104.5375)
+		(width 0.15)
+		(layer "F.Cu")
+		(net 54)
+		(uuid "9c5627d1-aa18-4f92-9360-2476a6d0a212")
+	)
+	(segment
+		(start 102.5 116.4)
+		(end 102.5 119.3)
+		(width 0.25)
 		(layer "F.Cu")
 		(net 55)
-		(uuid "02cc1a96-219f-442d-8fcd-14b53af04b78")
+		(uuid "0a6f9282-5d0f-4740-a7cf-3d77d3a666fb")
 	)
 	(segment
-		(start 136.025 136.595)
-		(end 136.025 134.825)
-		(width 0.5)
+		(start 100 119.5)
+		(end 100.75 119.5)
+		(width 0.25)
 		(layer "F.Cu")
 		(net 55)
-		(uuid "acaf1eb0-7e1a-4620-92c7-a6e723c1c431")
+		(uuid "1c4194ca-610f-4e62-9ff8-706b3e318929")
 	)
 	(segment
-		(start 137.8 141.1)
-		(end 137.8 139.4)
+		(start 99.099991 118.599991)
+		(end 100 119.5)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 55)
+		(uuid "25d2a039-1f15-45df-b7aa-55871c58a4c8")
+	)
+	(segment
+		(start 102.5 119.3)
+		(end 102.3 119.5)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 55)
+		(uuid "3f6c4f0e-186e-420b-a032-699850b833f4")
+	)
+	(segment
+		(start 98 115.5)
+		(end 98.75 115.5)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 55)
+		(uuid "802f9693-1905-4377-93ef-8030db074991")
+	)
+	(segment
+		(start 98.75 115.5)
+		(end 99.099991 115.849991)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 55)
+		(uuid "8bcc7923-5f05-445c-84ef-ef3fe5a965e4")
+	)
+	(segment
+		(start 102.3 119.5)
+		(end 100.75 119.5)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 55)
+		(uuid "a6bc1a41-c5fb-4082-b8e6-778103fb85ee")
+	)
+	(segment
+		(start 104.5 116.0375)
+		(end 102.8625 116.0375)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 55)
+		(uuid "b18fce52-ef22-4e8b-8e1d-c8e4824620d9")
+	)
+	(segment
+		(start 102.8625 116.0375)
+		(end 102.5 116.4)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 55)
+		(uuid "b73b91c1-908b-46f2-bd61-7aa5cc66cdfe")
+	)
+	(segment
+		(start 99.099991 115.849991)
+		(end 99.099991 118.599991)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 55)
+		(uuid "ba49e307-9d48-4ddd-b0fa-1bea3dd51306")
+	)
+	(segment
+		(start 100.1 117.5)
+		(end 99.500001 116.900001)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 56)
-		(uuid "1c43f0b2-4f56-47d0-9fd0-39cde3b1f383")
+		(uuid "006413bf-1f34-4e33-b9b6-0e98b40bae07")
 	)
 	(segment
-		(start 136.025 139.135)
-		(end 137.535 139.135)
+		(start 98.7 113.8)
+		(end 96.2 113.8)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 56)
-		(uuid "2fc587be-9f68-4846-8a58-6c41ab2472b0")
+		(uuid "8bff87c2-fd70-4fe7-8ffe-e3b32734ae7f")
 	)
 	(segment
-		(start 137.535 139.135)
-		(end 137.8 139.4)
+		(start 96.2 113.8)
+		(end 95.885 113.485)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 56)
-		(uuid "3ceb6097-1089-45da-8ea5-5d63be3759fc")
+		(uuid "9236a7e1-4f1f-4a15-b79a-447483d24902")
 	)
 	(segment
-		(start 137.4 141.5)
-		(end 137.8 141.1)
+		(start 99.500001 116.900001)
+		(end 99.500001 114.600001)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 56)
-		(uuid "3e31e537-56b5-4005-aa34-d13d1d521c6b")
+		(uuid "97ea0c86-59a6-4157-a4b5-46bdbda48dcd")
 	)
 	(segment
-		(start 132.9 141.5)
-		(end 137.4 141.5)
+		(start 100.75 117.5)
+		(end 100.1 117.5)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 56)
-		(uuid "825d954b-a753-49d0-a090-a9a1496aab7d")
+		(uuid "a90bab4b-67bb-4552-bb0b-3e4b8e7bfcb5")
+	)
+	(segment
+		(start 99.500001 114.600001)
+		(end 98.7 113.8)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 56)
+		(uuid "cd16a1b5-90a6-421a-8386-636966bc1c52")
+	)
+	(segment
+		(start 95.885 113.485)
+		(end 95.885 111.975)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 56)
+		(uuid "e79d0dcb-f845-4fc8-b664-9ee139c1ce30")
 	)
 	(segment
 		(start 124.45 113)
@@ -62218,84 +62200,92 @@
 		(uuid "9a984d8f-cb31-4314-bb5f-5415aa9d4df4")
 	)
 	(segment
-		(start 101 109.7)
-		(end 98.325 107.025)
+		(start 98 117.5)
+		(end 95.6 117.5)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 58)
-		(uuid "39d9625e-5b9a-461d-b18f-8090d7378402")
+		(uuid "2c76b0b2-dd90-4155-b997-d544d9888906")
 	)
 	(segment
-		(start 104.4125 111.8125)
-		(end 102.3 109.7)
+		(start 95.25 117.15)
+		(end 95.25 116.0375)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 58)
-		(uuid "4da5d3cb-30f6-41e9-ad7c-d2789caf039f")
+		(uuid "3571477e-57cb-4a8c-b155-84bbbd3110b1")
 	)
 	(segment
-		(start 98.325 107.025)
-		(end 97.155 107.025)
+		(start 95.6 117.5)
+		(end 95.25 117.15)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 58)
-		(uuid "89837dbd-7a1c-4b22-a505-0aa771bae578")
+		(uuid "4138520d-ad69-4a56-ba31-10412621f7a1")
 	)
 	(segment
-		(start 104.4125 113.7)
-		(end 104.4125 111.8125)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 58)
-		(uuid "9de38ed3-59c0-4cc6-b05d-b92d73b7cc7d")
-	)
-	(segment
-		(start 106.75 116.0375)
-		(end 104.4125 113.7)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 58)
-		(uuid "aa00acf9-da3d-4676-9014-c09059e00523")
-	)
-	(segment
-		(start 102.3 109.7)
-		(end 101 109.7)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 58)
-		(uuid "ae72b6a9-379d-499a-b2dc-458a3d12e861")
-	)
-	(segment
-		(start 95.885 107.025)
-		(end 95.885 105.585)
+		(start 119.06 64.45)
+		(end 119.126 64.516)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 59)
-		(uuid "1576971d-a6b5-4165-9493-df72bb6b743f")
+		(uuid "26c35652-0ee9-4585-9abb-1d0b723b0602")
 	)
 	(segment
-		(start 97.5 104.2125)
-		(end 95.25 104.2125)
+		(start 118.618 67.818)
+		(end 117.5405 67.818)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 59)
-		(uuid "4438dd27-ad34-4ed4-97bc-34f09f6a14ee")
+		(uuid "3f0e14ef-c9de-4396-9107-cf6a6ffd9e3b")
 	)
 	(segment
-		(start 95.25 104.95)
-		(end 95.25 104.2125)
+		(start 121.75 64.45)
+		(end 118 64.45)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 59)
-		(uuid "789f6597-71a0-4635-a97c-79c2e5894eaf")
+		(uuid "60bc73f0-0841-446b-b435-9a0c4245dac3")
 	)
 	(segment
-		(start 95.885 105.585)
-		(end 95.25 104.95)
+		(start 118 64.45)
+		(end 119.06 64.45)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 59)
-		(uuid "d45863a0-6489-409e-9e16-187d8e5bc3d6")
+		(uuid "86c44292-dc8d-4e64-afa1-39969a36546d")
+	)
+	(via
+		(at 118.618 67.818)
+		(size 0.8)
+		(drill 0.4)
+		(layers "F.Cu" "B.Cu")
+		(net 59)
+		(uuid "19025655-5621-479d-b193-4c5415d7a366")
+	)
+	(via
+		(at 119.126 64.516)
+		(size 0.8)
+		(drill 0.4)
+		(layers "F.Cu" "B.Cu")
+		(net 59)
+		(uuid "66296954-a809-472b-a180-d14d0cb3a5bd")
+	)
+	(segment
+		(start 119.126 67.31)
+		(end 118.618 67.818)
+		(width 0.25)
+		(layer "B.Cu")
+		(net 59)
+		(uuid "90a16573-2402-44ea-8b95-6a5e2f25d47c")
+	)
+	(segment
+		(start 119.126 64.516)
+		(end 119.126 67.31)
+		(width 0.25)
+		(layer "B.Cu")
+		(net 59)
+		(uuid "d902d0f4-00d2-408f-8d8e-6710775dfce4")
 	)
 	(segment
 		(start 95.25 99.4625)
@@ -62338,44 +62328,36 @@
 		(uuid "c6409a2d-dff6-49d5-8f82-944f782fb539")
 	)
 	(segment
-		(start 94.0625 114.9375)
-		(end 94.615 114.385)
-		(width 0.25)
+		(start 148.35 95.75)
+		(end 146.25 95.75)
+		(width 0.5)
 		(layer "F.Cu")
 		(net 61)
-		(uuid "19cc9025-66c0-4252-b2b6-e3f207c7539b")
+		(uuid "25c87c41-aad0-4b6a-9b7f-8ba29f7b79e9")
 	)
 	(segment
-		(start 94.0625 118.9625)
-		(end 94.0625 114.9375)
-		(width 0.25)
+		(start 144.75 99)
+		(end 146.25 97.5)
+		(width 1)
 		(layer "F.Cu")
 		(net 61)
-		(uuid "44878a6e-1e6f-4352-949f-06f33dd50735")
+		(uuid "6376a517-7fbe-4583-bb09-778391f7de33")
 	)
 	(segment
-		(start 95.25 118.9625)
-		(end 94.0625 118.9625)
-		(width 0.25)
+		(start 146.25 97.5)
+		(end 146.25 95.75)
+		(width 1)
 		(layer "F.Cu")
 		(net 61)
-		(uuid "800ed64d-dfcb-4636-b637-8a587bb5529f")
+		(uuid "945d9733-3411-4c3c-98d8-3619d997df60")
 	)
 	(segment
-		(start 94.0625 118.9625)
-		(end 92.75 118.9625)
-		(width 0.25)
+		(start 144.75 100.35)
+		(end 144.75 99)
+		(width 1)
 		(layer "F.Cu")
 		(net 61)
-		(uuid "a2ca6991-a174-47e5-a9ad-d4921e73328e")
-	)
-	(segment
-		(start 94.615 114.385)
-		(end 94.615 111.975)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 61)
-		(uuid "e8bef627-b09f-4fff-a50e-dbf0269138a0")
+		(uuid "db264c6c-b53a-4dbc-98cf-cc8a834b6eca")
 	)
 	(segment
 		(start 92.75 116.0375)
@@ -62458,44 +62440,140 @@
 		(uuid "d1ce2672-7f6b-4d01-93e6-1c09800652f4")
 	)
 	(segment
-		(start 166 105)
-		(end 166 104)
-		(width 0.15)
+		(start 130.0375 139.925)
+		(end 130.75 139.2125)
+		(width 0.5)
 		(layer "F.Cu")
-		(net 64)
-		(uuid "1f5591e5-256f-4430-85c7-30cb5de5e72f")
+		(net 63)
+		(uuid "194f97df-18be-463e-beb0-7623f195812e")
 	)
 	(segment
-		(start 165.4625 107)
-		(end 165.4625 105.5375)
-		(width 0.15)
+		(start 119.00003 135.25)
+		(end 120 136.24997)
+		(width 0.25)
 		(layer "F.Cu")
-		(net 64)
-		(uuid "a7999b23-ea6b-4c7c-8e04-4a777cda452f")
+		(net 63)
+		(uuid "22b72740-8a16-4ded-9b12-793f64b63b48")
 	)
 	(segment
-		(start 165.4625 105.5375)
-		(end 166 105)
-		(width 0.15)
+		(start 130.0375 141.5)
+		(end 130.0375 139.925)
+		(width 0.5)
 		(layer "F.Cu")
-		(net 64)
-		(uuid "bc0d79a6-92ff-497c-a27b-c300ab96f3df")
+		(net 63)
+		(uuid "a4ab047d-fd65-485d-803c-1b9e687726a0")
 	)
 	(segment
-		(start 174.4625 104.5375)
-		(end 175 104)
-		(width 0.15)
+		(start 118.25 135.25)
+		(end 119.00003 135.25)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 63)
+		(uuid "b508aa79-4e38-4939-b845-760198475688")
+	)
+	(segment
+		(start 130.1 141.5)
+		(end 127.000004 141.5)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 63)
+		(uuid "b69d36a0-6cfe-4a6c-ad09-425ef758687c")
+	)
+	(segment
+		(start 127.000004 141.5)
+		(end 126.750004 141.25)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 63)
+		(uuid "e819a4cd-d88c-4236-9a27-1cebf1c556b6")
+	)
+	(via
+		(at 126.750004 141.25)
+		(size 0.9)
+		(drill 0.5)
+		(layers "F.Cu" "B.Cu")
+		(net 63)
+		(uuid "04f04a11-b6d0-4a11-b427-fd56137e1d71")
+	)
+	(via
+		(at 120 136.24997)
+		(size 0.9)
+		(drill 0.5)
+		(layers "F.Cu" "B.Cu")
+		(net 63)
+		(uuid "846f11ce-d646-46ee-91af-9d09f1356ee8")
+	)
+	(segment
+		(start 120 136.24997)
+		(end 121.749974 136.24997)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 63)
+		(uuid "b7955683-a0ba-409b-8ec8-e9710d750366")
+	)
+	(segment
+		(start 121.749974 136.24997)
+		(end 126.750004 141.25)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 63)
+		(uuid "bcf6e709-1b43-4521-bd7c-7c6881f4f5bc")
+	)
+	(segment
+		(start 142.9193 137.865)
+		(end 145.75 135.0343)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 64)
+		(uuid "1c44f60a-c39b-4f6d-a27f-ac83feb09cf3")
+	)
+	(segment
+		(start 145.75 133.1)
+		(end 146.6 132.25)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 64)
+		(uuid "67e8ea7c-287b-4593-a359-63ecdff45a90")
+	)
+	(segment
+		(start 145.75 135.0343)
+		(end 145.75 133.1)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 64)
+		(uuid "d104f068-eb05-40ad-a385-a28a9301b8a6")
+	)
+	(segment
+		(start 146.6 132.25)
+		(end 146.85 132.25)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 64)
+		(uuid "d7756812-b65a-4818-bd72-23d2d1e5d501")
+	)
+	(segment
+		(start 140.975 137.865)
+		(end 142.9193 137.865)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 64)
+		(uuid "e22570a7-1184-43ce-a1ee-ec5758e3f04c")
+	)
+	(segment
+		(start 136.025 134.825)
+		(end 138.6 132.25)
+		(width 0.5)
 		(layer "F.Cu")
 		(net 65)
-		(uuid "49218cd2-feea-4cfa-a641-0bcb1147ea6e")
+		(uuid "02cc1a96-219f-442d-8fcd-14b53af04b78")
 	)
 	(segment
-		(start 174.4625 107)
-		(end 174.4625 104.5375)
-		(width 0.15)
+		(start 136.025 136.595)
+		(end 136.025 134.825)
+		(width 0.5)
 		(layer "F.Cu")
 		(net 65)
-		(uuid "9c5627d1-aa18-4f92-9360-2476a6d0a212")
+		(uuid "acaf1eb0-7e1a-4620-92c7-a6e723c1c431")
 	)
 	(segment
 		(start 164.86 73.81)
@@ -62992,6 +63070,126 @@
 		(layer "B.Cu")
 		(net 71)
 		(uuid "e762b922-7231-4e92-9d76-e5685e53eba0")
+	)
+	(segment
+		(start 137.8 141.1)
+		(end 137.8 139.4)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 72)
+		(uuid "1c43f0b2-4f56-47d0-9fd0-39cde3b1f383")
+	)
+	(segment
+		(start 136.025 139.135)
+		(end 137.535 139.135)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 72)
+		(uuid "2fc587be-9f68-4846-8a58-6c41ab2472b0")
+	)
+	(segment
+		(start 137.535 139.135)
+		(end 137.8 139.4)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 72)
+		(uuid "3ceb6097-1089-45da-8ea5-5d63be3759fc")
+	)
+	(segment
+		(start 137.4 141.5)
+		(end 137.8 141.1)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 72)
+		(uuid "3e31e537-56b5-4005-aa34-d13d1d521c6b")
+	)
+	(segment
+		(start 132.9 141.5)
+		(end 137.4 141.5)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 72)
+		(uuid "825d954b-a753-49d0-a090-a9a1496aab7d")
+	)
+	(segment
+		(start 101 109.7)
+		(end 98.325 107.025)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 73)
+		(uuid "39d9625e-5b9a-461d-b18f-8090d7378402")
+	)
+	(segment
+		(start 104.4125 111.8125)
+		(end 102.3 109.7)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 73)
+		(uuid "4da5d3cb-30f6-41e9-ad7c-d2789caf039f")
+	)
+	(segment
+		(start 98.325 107.025)
+		(end 97.155 107.025)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 73)
+		(uuid "89837dbd-7a1c-4b22-a505-0aa771bae578")
+	)
+	(segment
+		(start 104.4125 113.7)
+		(end 104.4125 111.8125)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 73)
+		(uuid "9de38ed3-59c0-4cc6-b05d-b92d73b7cc7d")
+	)
+	(segment
+		(start 106.75 116.0375)
+		(end 104.4125 113.7)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 73)
+		(uuid "aa00acf9-da3d-4676-9014-c09059e00523")
+	)
+	(segment
+		(start 102.3 109.7)
+		(end 101 109.7)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 73)
+		(uuid "ae72b6a9-379d-499a-b2dc-458a3d12e861")
+	)
+	(segment
+		(start 95.885 107.025)
+		(end 95.885 105.585)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 74)
+		(uuid "1576971d-a6b5-4165-9493-df72bb6b743f")
+	)
+	(segment
+		(start 97.5 104.2125)
+		(end 95.25 104.2125)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 74)
+		(uuid "4438dd27-ad34-4ed4-97bc-34f09f6a14ee")
+	)
+	(segment
+		(start 95.25 104.95)
+		(end 95.25 104.2125)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 74)
+		(uuid "789f6597-71a0-4635-a97c-79c2e5894eaf")
+	)
+	(segment
+		(start 95.885 105.585)
+		(end 95.25 104.95)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 74)
+		(uuid "d45863a0-6489-409e-9e16-187d8e5bc3d6")
 	)
 	(segment
 		(start 178 121.5)
@@ -63794,84 +63992,44 @@
 		(uuid "fc62dec8-8066-449a-a760-c01e1f8a8710")
 	)
 	(segment
-		(start 100.1 117.5)
-		(end 99.500001 116.900001)
+		(start 94.0625 114.9375)
+		(end 94.615 114.385)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 85)
-		(uuid "006413bf-1f34-4e33-b9b6-0e98b40bae07")
+		(uuid "19cc9025-66c0-4252-b2b6-e3f207c7539b")
 	)
 	(segment
-		(start 98.7 113.8)
-		(end 96.2 113.8)
+		(start 94.0625 118.9625)
+		(end 94.0625 114.9375)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 85)
-		(uuid "8bff87c2-fd70-4fe7-8ffe-e3b32734ae7f")
+		(uuid "44878a6e-1e6f-4352-949f-06f33dd50735")
 	)
 	(segment
-		(start 96.2 113.8)
-		(end 95.885 113.485)
+		(start 95.25 118.9625)
+		(end 94.0625 118.9625)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 85)
-		(uuid "9236a7e1-4f1f-4a15-b79a-447483d24902")
+		(uuid "800ed64d-dfcb-4636-b637-8a587bb5529f")
 	)
 	(segment
-		(start 99.500001 116.900001)
-		(end 99.500001 114.600001)
+		(start 94.0625 118.9625)
+		(end 92.75 118.9625)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 85)
-		(uuid "97ea0c86-59a6-4157-a4b5-46bdbda48dcd")
+		(uuid "a2ca6991-a174-47e5-a9ad-d4921e73328e")
 	)
 	(segment
-		(start 100.75 117.5)
-		(end 100.1 117.5)
+		(start 94.615 114.385)
+		(end 94.615 111.975)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 85)
-		(uuid "a90bab4b-67bb-4552-bb0b-3e4b8e7bfcb5")
-	)
-	(segment
-		(start 99.500001 114.600001)
-		(end 98.7 113.8)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 85)
-		(uuid "cd16a1b5-90a6-421a-8386-636966bc1c52")
-	)
-	(segment
-		(start 95.885 113.485)
-		(end 95.885 111.975)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 85)
-		(uuid "e79d0dcb-f845-4fc8-b664-9ee139c1ce30")
-	)
-	(segment
-		(start 98 117.5)
-		(end 95.6 117.5)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 87)
-		(uuid "2c76b0b2-dd90-4155-b997-d544d9888906")
-	)
-	(segment
-		(start 95.25 117.15)
-		(end 95.25 116.0375)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 87)
-		(uuid "3571477e-57cb-4a8c-b155-84bbbd3110b1")
-	)
-	(segment
-		(start 95.6 117.5)
-		(end 95.25 117.15)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 87)
-		(uuid "4138520d-ad69-4a56-ba31-10412621f7a1")
+		(uuid "e8bef627-b09f-4fff-a50e-dbf0269138a0")
 	)
 	(segment
 		(start 192.040812 140.209188)
@@ -68969,8 +69127,8 @@
 		)
 	)
 	(zone
-		(net 54)
-		(net_name "Net-(J7-Pad1)")
+		(net 46)
+		(net_name "Net-(J7-Pin_1)")
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-000061631804")
 		(hatch edge 0.508)
@@ -69040,8 +69198,8 @@
 		)
 	)
 	(zone
-		(net 44)
-		(net_name "Net-(J2-Pad1)")
+		(net 45)
+		(net_name "Net-(J2-Pin_1)")
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-000061631807")
 		(hatch edge 0.508)

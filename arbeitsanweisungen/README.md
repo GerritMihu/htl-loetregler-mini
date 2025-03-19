@@ -48,13 +48,13 @@
 
 1. Entscheidung welche Variante des Gehäuses gefertigt wird
 2. Öffnen der .STL oder .3MF mit einem Slicer
-3. Slicen der Dateien als GCODE
+3. Slicen der Dateien als .GCODE
    1. Richtiger Kunststoff
    2. Richtiger Drucker
    3. Stützen an den richtigen Stellen?
    4. Lagenhöhe
    5. Druck Qualität / Geschwindigkeit
-4. Transfer der .GCODE auf den Drucker
+4. Transfer der .GCODE Datei auf den Drucker
 5. Drucker vorbereiten
    1. Druckbett mit Wasser reinigen
    2. Klebestift auftragen, nur dort wo gedruckt wird
@@ -63,6 +63,7 @@
       2. richtiger Kunstoff
       3. Rolle läuft frei / leichtgängig
 6. Druck starten
+   1. Erste Lage auf Offensichtliche Fehler inspizieren
 7. Teile durch biegen des Druckbettes entfernen (Vorsicht heiß)
 8. Druckbett reinigen
 9. Stützen entfernen

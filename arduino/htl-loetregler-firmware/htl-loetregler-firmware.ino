@@ -56,7 +56,7 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 #define STROMWERTE 100
 
 char str[20] = {0};
-uint16_t tempSoll = 330;
+uint16_t tempSoll = 150;
 uint16_t tempSpitze = 999;
 bool standby = false;
 bool forcedShutdown = false;

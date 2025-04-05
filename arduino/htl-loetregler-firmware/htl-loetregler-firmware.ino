@@ -40,6 +40,9 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 // A3: unused
 // A4: SDA (OLED und PCB-Temp-Sensor)
 // A5: SCL (OLED und PCB-Temp-Sensor)
+#define SDA_PIN 20
+#define SCL_PIN 21
+
 //#define PIN_AIN_Staender    A6
 
 #endif
@@ -56,7 +59,7 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 #define STROMWERTE 100
 
 char str[20] = {0};
-uint16_t tempSoll = 150;
+uint16_t tempSoll = 130;
 uint16_t tempSpitze = 999;
 bool standby = false;
 bool forcedShutdown = false;
@@ -82,7 +85,7 @@ void setup() {
   delay(100);
   Serial.println("HTL LOETREGLER MINI");
 
-#if defined(__AVR__)
+#if !defined(__AVR__)
   Wire.setSDA(20);
   Wire.setSCL(21);
 #endif

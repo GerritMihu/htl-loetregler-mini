@@ -2692,7 +2692,7 @@
 			(uuid "3f654f38-6a5a-4c9e-8342-f4ffe4cb7243")
 		)
 		(instances
-			(project ""
+			(project "jbc-miniregler"
 				(path "/904411de-f47e-4f60-b2c4-cbed3bacfdfd"
 					(reference "X3")
 					(unit 1)
@@ -2835,7 +2835,7 @@
 			(uuid "b4fbe995-93f2-469a-990d-611362702f94")
 		)
 		(instances
-			(project ""
+			(project "jbc-miniregler"
 				(path "/904411de-f47e-4f60-b2c4-cbed3bacfdfd"
 					(reference "X2")
 					(unit 1)
@@ -2985,7 +2985,7 @@
 			(uuid "4f547b1f-bd61-44ac-ab02-b56f7bdc9fb8")
 		)
 		(instances
-			(project ""
+			(project "jbc-miniregler"
 				(path "/904411de-f47e-4f60-b2c4-cbed3bacfdfd"
 					(reference "SW3")
 					(unit 1)
@@ -3135,7 +3135,7 @@
 			(uuid "96032aa0-aff2-42bc-8500-1a49475e5052")
 		)
 		(instances
-			(project ""
+			(project "jbc-miniregler"
 				(path "/904411de-f47e-4f60-b2c4-cbed3bacfdfd"
 					(reference "SW4")
 					(unit 1)
@@ -3267,7 +3267,7 @@
 			(uuid "b01f8d9b-6a6f-4912-b462-f139b4ba9687")
 		)
 		(instances
-			(project ""
+			(project "jbc-miniregler"
 				(path "/904411de-f47e-4f60-b2c4-cbed3bacfdfd"
 					(reference "R3")
 					(unit 1)
@@ -3399,7 +3399,7 @@
 			(uuid "0cfcae41-ff6f-4bbf-9eb5-c0ad2da9cfb7")
 		)
 		(instances
-			(project ""
+			(project "jbc-miniregler"
 				(path "/904411de-f47e-4f60-b2c4-cbed3bacfdfd"
 					(reference "R4")
 					(unit 1)
@@ -3464,7 +3464,7 @@
 			(uuid "36ed23e7-966a-437f-a799-5e4580003df9")
 		)
 		(instances
-			(project ""
+			(project "jbc-miniregler"
 				(path "/904411de-f47e-4f60-b2c4-cbed3bacfdfd"
 					(reference "#PWR01")
 					(unit 1)
@@ -3614,7 +3614,7 @@
 			(uuid "e499e107-296b-4347-bb8a-4ecbfd895f2f")
 		)
 		(instances
-			(project ""
+			(project "jbc-miniregler"
 				(path "/904411de-f47e-4f60-b2c4-cbed3bacfdfd"
 					(reference "SW1")
 					(unit 1)
@@ -3764,7 +3764,7 @@
 			(uuid "4b1fd55d-ac7e-4b1a-a02f-b9d86d3bf1d9")
 		)
 		(instances
-			(project ""
+			(project "jbc-miniregler"
 				(path "/904411de-f47e-4f60-b2c4-cbed3bacfdfd"
 					(reference "SW2")
 					(unit 1)
@@ -3896,7 +3896,7 @@
 			(uuid "42956c30-5e52-403c-b7bf-45362d2853e5")
 		)
 		(instances
-			(project ""
+			(project "jbc-miniregler"
 				(path "/904411de-f47e-4f60-b2c4-cbed3bacfdfd"
 					(reference "R1")
 					(unit 1)
@@ -4028,7 +4028,7 @@
 			(uuid "6e91e1a9-7f5f-406c-a7a6-885f0f2d914c")
 		)
 		(instances
-			(project ""
+			(project "jbc-miniregler"
 				(path "/904411de-f47e-4f60-b2c4-cbed3bacfdfd"
 					(reference "R2")
 					(unit 1)
@@ -4169,7 +4169,7 @@
 			(uuid "78c44b52-28de-453c-b252-dc265a153d50")
 		)
 		(instances
-			(project ""
+			(project "jbc-miniregler"
 				(path "/904411de-f47e-4f60-b2c4-cbed3bacfdfd"
 					(reference "D1")
 					(unit 1)
@@ -4310,7 +4310,7 @@
 			(uuid "12e440c3-8ca6-4ab7-935c-5de3932a7b0c")
 		)
 		(instances
-			(project ""
+			(project "jbc-miniregler"
 				(path "/904411de-f47e-4f60-b2c4-cbed3bacfdfd"
 					(reference "R5")
 					(unit 1)
@@ -4375,7 +4375,7 @@
 			(uuid "28bc61d6-bfd6-4158-85d8-ac5cd07aaf9a")
 		)
 		(instances
-			(project ""
+			(project "jbc-miniregler"
 				(path "/904411de-f47e-4f60-b2c4-cbed3bacfdfd"
 					(reference "#PWR03")
 					(unit 1)
@@ -4532,7 +4532,7 @@
 			(uuid "5b00b6f5-1f2a-4cd3-8a3c-cb083c82b60a")
 		)
 		(instances
-			(project ""
+			(project "jbc-miniregler"
 				(path "/904411de-f47e-4f60-b2c4-cbed3bacfdfd"
 					(reference "C1")
 					(unit 1)
@@ -4689,7 +4689,7 @@
 			(uuid "581f2a8c-8037-4a9d-9883-2f6a2484a054")
 		)
 		(instances
-			(project ""
+			(project "jbc-miniregler"
 				(path "/904411de-f47e-4f60-b2c4-cbed3bacfdfd"
 					(reference "C2")
 					(unit 1)
@@ -4846,7 +4846,7 @@
 			(uuid "0f168e8c-1550-4637-8648-bbd3a16ebf40")
 		)
 		(instances
-			(project ""
+			(project "jbc-miniregler"
 				(path "/904411de-f47e-4f60-b2c4-cbed3bacfdfd"
 					(reference "C3")
 					(unit 1)
@@ -5003,7 +5003,7 @@
 			(uuid "7bde823f-4632-487e-85b2-2e84f94ccaaa")
 		)
 		(instances
-			(project ""
+			(project "jbc-miniregler"
 				(path "/904411de-f47e-4f60-b2c4-cbed3bacfdfd"
 					(reference "C4")
 					(unit 1)
@@ -5139,7 +5139,7 @@
 			(uuid "b1b0cc7a-1e3b-4c62-9d4b-b66bf6c7f1fb")
 		)
 		(instances
-			(project ""
+			(project "jbc-miniregler"
 				(path "/904411de-f47e-4f60-b2c4-cbed3bacfdfd"
 					(reference "U1")
 					(unit 1)
@@ -5204,7 +5204,7 @@
 			(uuid "0067e070-2e99-48e6-85b9-d78669d6de65")
 		)
 		(instances
-			(project ""
+			(project "jbc-miniregler"
 				(path "/904411de-f47e-4f60-b2c4-cbed3bacfdfd"
 					(reference "#PWR04")
 					(unit 1)
@@ -5321,7 +5321,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "jbc-miniregler"
 				(path "/904411de-f47e-4f60-b2c4-cbed3bacfdfd"
 					(reference "Item3")
 					(unit 1)
@@ -5438,7 +5438,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "jbc-miniregler"
 				(path "/904411de-f47e-4f60-b2c4-cbed3bacfdfd"
 					(reference "Item2")
 					(unit 1)
@@ -5581,7 +5581,7 @@
 			(uuid "ceb084c9-484d-43d6-8b5a-25d818f7a6d0")
 		)
 		(instances
-			(project ""
+			(project "jbc-miniregler"
 				(path "/904411de-f47e-4f60-b2c4-cbed3bacfdfd"
 					(reference "X1")
 					(unit 1)
@@ -5707,7 +5707,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "jbc-miniregler"
 				(path "/904411de-f47e-4f60-b2c4-cbed3bacfdfd"
 					(reference "FID2")
 					(unit 1)
@@ -5833,7 +5833,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "jbc-miniregler"
 				(path "/904411de-f47e-4f60-b2c4-cbed3bacfdfd"
 					(reference "FID1")
 					(unit 1)
@@ -5843,7 +5843,7 @@
 	)
 	(symbol
 		(lib_id "htl_virtual:Item")
-		(at 176.53 125.73 0)
+		(at 176.53 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5851,7 +5851,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060c20dea")
 		(property "Reference" "Item1"
-			(at 179.832 124.5616 0)
+			(at 179.832 130.9116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5860,7 +5860,7 @@
 			)
 		)
 		(property "Value" "Buchsenleiste 4P"
-			(at 179.832 126.873 0)
+			(at 179.832 133.223 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5869,7 +5869,7 @@
 			)
 		)
 		(property "Footprint" "htl_virtual:Virtual-Item"
-			(at 176.53 127.508 0)
+			(at 176.53 133.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5878,7 +5878,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 125.73 90)
+			(at 176.53 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5887,7 +5887,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 125.73 0)
+			(at 176.53 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5896,7 +5896,7 @@
 			)
 		)
 		(property "Manufacturer" "CJT(Changjiang Connectors)"
-			(at 176.53 125.73 0)
+			(at 176.53 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5905,7 +5905,7 @@
 			)
 		)
 		(property "ManPartNr" "A2541HWV-4P"
-			(at 176.53 125.73 0)
+			(at 176.53 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5914,7 +5914,7 @@
 			)
 		)
 		(property "Distributor" "LCSC"
-			(at 176.53 125.73 0)
+			(at 176.53 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5923,7 +5923,7 @@
 			)
 		)
 		(property "DistOrderNr" "C5176037"
-			(at 176.53 125.73 0)
+			(at 176.53 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5932,7 +5932,7 @@
 			)
 		)
 		(property "PriceEUR" "0.0517"
-			(at 176.53 125.73 0)
+			(at 176.53 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5941,7 +5941,7 @@
 			)
 		)
 		(property "PriceForQty" "50"
-			(at 176.53 125.73 0)
+			(at 176.53 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5950,7 +5950,7 @@
 			)
 		)
 		(property "Weblink" ""
-			(at 176.53 125.73 0)
+			(at 176.53 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5959,7 +5959,7 @@
 			)
 		)
 		(property "Notes" "Buchsenleiste, 8.5mm hoch, 2.54mm Raster"
-			(at 176.53 125.73 0)
+			(at 176.53 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5968,7 +5968,7 @@
 			)
 		)
 		(property "Index" ""
-			(at 176.53 125.73 0)
+			(at 176.53 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5977,7 +5977,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "jbc-miniregler"
 				(path "/904411de-f47e-4f60-b2c4-cbed3bacfdfd"
 					(reference "Item1")
 					(unit 1)
@@ -6043,7 +6043,7 @@
 			(uuid "719c1296-250b-4329-a819-df58d175e564")
 		)
 		(instances
-			(project ""
+			(project "jbc-miniregler"
 				(path "/904411de-f47e-4f60-b2c4-cbed3bacfdfd"
 					(reference "#PWR0101")
 					(unit 1)

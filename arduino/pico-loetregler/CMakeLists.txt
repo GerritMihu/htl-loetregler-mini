@@ -30,7 +30,7 @@ add_executable(pico_loetregler
 )
 
 target_include_directories(pico_loetregler PRIVATE ${CMAKE_CURRENT_LIST_DIR})
-target_link_libraries(pico_loetregler pico_stdlib hardware_adc hardware_i2c)
+target_link_libraries(pico_loetregler pico_stdlib hardware_adc hardware_i2c hardware_pwm)
 
 pico_add_extra_outputs(pico_loetregler)
 

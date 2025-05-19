@@ -1,9 +1,11 @@
+
 // main.c
 #include <stdio.h>
 #include <stdlib.h>
 #include "pico/stdlib.h"
 #include "hardware/adc.h"
 #include "hardware/i2c.h"
+#include "hardware/pwm.h"
 #include "ssd1306.h"
 #include "button.h"
 
@@ -26,9 +28,12 @@
 #define SPANNUNG_VOLL (40.0f / DIVISOR)
 #define SPANNUNG_LEER (32.0f / DIVISOR)
 
+#define PWM_FREQ 20000 // 20 kHz
+#define MAX_DUTY_CYCLE 0.8f // 80%
+
 static ssd1306_t display;
 
-uint16_t tempSoll = 330;
+uint16_t tempSoll = 30;
 uint16_t tempSpitze = 999;
 bool standby = false;
 bool forcedShutdown = false;
@@ -58,12 +63,32 @@ void init_display() {
     ssd1306_show(&display);
 }
 
+void init_pwm() {
+    gpio_set_function(PIN_HEIZELEMENT, GPIO_FUNC_PWM);
+    uint slice_num = pwm_gpio_to_slice_num(PIN_HEIZELEMENT);
+    pwm_set_wrap(slice_num, 1250); // 20 kHz frequency
+    pwm_set_enabled(slice_num, true);
+}
+
+void set_pwm_duty_cycle(float duty_cycle) {
+    if (duty_cycle > MAX_DUTY_CYCLE) {
+        duty_cycle = MAX_DUTY_CYCLE;
+    }
+    uint slice_num = pwm_gpio_to_slice_num(PIN_HEIZELEMENT);
+    uint16_t level = duty_cycle * 1250;
+    pwm_set_gpio_level(PIN_HEIZELEMENT, level);
+}
+
+void control_heating(float temp) {
+    float temp_diff = tempSoll - temp;
+    float duty_cycle = temp_diff / tempSoll;
+    set_pwm_duty_cycle(duty_cycle);
+}
+
 int main() {
     stdio_init_all();
     gpio_init(PIN_SELBSHALTUNG);
     gpio_set_dir(PIN_SELBSHALTUNG, GPIO_OUT);
-    gpio_init(PIN_HEIZELEMENT);
-    gpio_set_dir(PIN_HEIZELEMENT, GPIO_OUT);
     gpio_init(PIN_COMTREIBER_ENABLE);
     gpio_set_dir(PIN_COMTREIBER_ENABLE, GPIO_OUT);
 
@@ -74,6 +99,7 @@ int main() {
 
     button_init();
     init_display();
+    init_pwm();
     selbsthaltung();
 
     while (true) {
@@ -91,8 +117,7 @@ int main() {
         float temp = read_adc_voltage(ADC_TEMPSENSOR) * 100.0f;
         uBatt = read_adc_voltage(ADC_UBATT) * (40.0f / 3.0f);
 
-        bool heizen = temp < tempSoll && !standby;
-        gpio_put(PIN_HEIZELEMENT, heizen);
+        control_heating(temp);
 
         ssd1306_clear(&display);
         char buffer[32];
@@ -106,4 +131,3 @@ int main() {
     }
     return 0;
 }
-

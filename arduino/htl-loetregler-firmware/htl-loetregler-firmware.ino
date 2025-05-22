@@ -51,12 +51,12 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 #define MIT_NAMEN
 #define VORNAME  "PROF."
 #define NACHNAME "MITTERHUEMER"
-#define VERSION "0.3" // max. 3 characters!
+#define VERSION "0.2" // max. 3 characters!
 
 #define STROMWERTE 100
 
 char str[20] = {0};
-uint16_t tempSoll = 330;
+uint16_t tempSoll = 50;
 uint16_t tempSpitze = 999;
 bool standby = false;
 bool forcedShutdown = false;

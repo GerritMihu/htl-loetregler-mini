@@ -50,8 +50,8 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 #define MIT_NAMEN
 #define VORNAME  "PROF."
-#define NACHNAME "MITTERHUEMER"
-#define VERSION "0.3" // max. 3 characters!
+#define NACHNAME "ZEILHOFER"
+#define VERSION "0.2" // max. 3 characters!
 
 #define STROMWERTE 100
 
@@ -82,10 +82,10 @@ void setup() {
   delay(100);
   Serial.println("HTL LOETREGLER MINI");
 
-  #if !defined(__AVR__)
-    #define WIRE_SDA 20;
-    #define WIRE_SCL 21;
-  #endif
+#if !defined(__AVR__)
+  Wire.setSDA(20);
+  Wire.setSCL(21);
+#endif
   Wire.begin();
 
   // SSD1306_SWITCHCAPVCC = generate display voltage from 3.3V internally
@@ -344,7 +344,7 @@ void loop() {
 void uebertemperaturwaechter()
 {
   if (millis() > timeLastTempIncrease + 60000UL && tempSoll > 330) {
-    tempSoll = 80;
+    tempSoll = 330;
   }
 }
 

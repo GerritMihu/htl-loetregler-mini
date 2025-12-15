@@ -78,7 +78,7 @@
       1. Werkzeuge ==>  Board ==> Boardverwalter ==> Raspberry Pico RP2040
 2. Code anpassen
    1. Namen Eintragen
-   2. Varianten im Code auswählen (AVR oder Pico)
+   2. Software den eigenen Vorstellungen anpassen
 3. Überprüfen drücken
    1. Fehler beheben
 4. Leiterplatte mit PC verbinden
@@ -92,7 +92,7 @@
 4. Handstück vorbereiten
 5. Hansstück anschließen
 6. Zugentlastung
-7. Betätige für Taster einsetzen
+7. Betätiger für Taster einsetzen
 8. Deckel montieren
 9. Funktionstest mit Testlötspitzen
 10. Leistungskalibrierung

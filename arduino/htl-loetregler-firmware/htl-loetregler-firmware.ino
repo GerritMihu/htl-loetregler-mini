@@ -49,15 +49,15 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 #define SPANNUNG_LEER (32.0/DIVISOR)
 
 #define MIT_NAMEN
-#define VORNAME  "PROF."
-#define NACHNAME "MITTERHUEMER"
+#define VORNAME  "Franz."
+#define NACHNAME "Reithuber"
 
 #define VERSION "0.2" // max. 3 characters!
 
 #define STROMWERTE 100
 
 char str[20] = {0};
-uint16_t tempSoll = 50;
+uint16_t tempSoll = 350;
 uint16_t tempSpitze = 999;
 bool standby = false;
 bool forcedShutdown = false;
@@ -344,8 +344,8 @@ void loop() {
 // Dient dem Schutz des 3D-gedruckten Griffstücks
 void uebertemperaturwaechter()
 {
-  if (millis() > timeLastTempIncrease + 60000UL && tempSoll > 330) {
-    tempSoll = 330;
+  if (millis() > timeLastTempIncrease + 60000UL && tempSoll > 400) {
+    tempSoll = 400;
   }
 }
 

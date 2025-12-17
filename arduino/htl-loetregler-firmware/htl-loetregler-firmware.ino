@@ -49,8 +49,8 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 #define SPANNUNG_LEER (32.0/DIVISOR)
 
 #define MIT_NAMEN
-#define VORNAME  "PROF."
-#define NACHNAME "MITTERHUEMER"
+#define VORNAME  "Franz"
+#define NACHNAME "Reithuber"
 #define VERSION "0.2" // max. 3 characters!
 
 #define STROMWERTE 100

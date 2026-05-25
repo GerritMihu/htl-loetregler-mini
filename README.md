@@ -11,6 +11,81 @@ Design ist möglichst kostengünstig, speziell für Schüler-Budget.
 
 ![image](render-v21.0.0.png)
 
+# Firmware-Status
+
+Die neue Firmware-Entwicklung in diesem Branch erfolgt fuer den **Raspberry Pi Pico** mit **PlatformIO** und dem **Pico SDK in C**.
+
+- Das aktive Projekt liegt jetzt im Repository-Root:
+  - `platformio.ini`
+  - `src/`
+  - `include/`
+  - `lib/LoetreglerLogic/`
+  - `test/`
+- Die alten Sketche unter `arduino/` bleiben als Referenz erhalten, sind aber nicht mehr der bevorzugte Entwicklungsweg fuer die Pico-Firmware.
+- Die neue Firmware ist bewusst in **C statt C++** geschrieben, damit sie im Unterricht moeglichst leicht nachvollziehbar bleibt.
+
+# PlatformIO-Befehle
+
+## Build
+
+```bash
+pio run -e pico
+```
+
+## Upload
+
+```bash
+pio run -e pico -t upload
+```
+
+## Tests
+
+Alle Logik-Tests:
+
+```bash
+pio test -e native
+```
+
+Einen einzelnen Testlauf starten:
+
+```bash
+pio test -e native -f test_logic
+```
+
+## Lint / statische Analyse
+
+```bash
+pio check -e pico
+```
+
+# Neue Firmware-Struktur
+
+- `src/main.cpp`
+- `src/main.c`
+  - Hauptprogramm, Anzeige, Menue, Regelung und Sicherheitslogik
+- `src/button_input.c` / `include/button_input.h`
+  - entprellte Taster mit einfachen Press-/Release-Ereignissen
+- `src/settings_store.c` / `include/settings_store.h`
+  - Laden und Speichern der Einstellungen im Flash
+- `src/ssd1306_simple.c` / `include/ssd1306_simple.h`
+  - sehr einfacher OLED-Treiber in C fuer das 128x32-I2C-Display
+- `lib/LoetreglerLogic/`
+  - rein logische, testbare Funktionen fuer Menue, Grenzwerte und Einstellungen
+- `test/test_logic/`
+  - Unit-Tests fuer die Menue- und Einstellungslogik
+
+# Menue-Funktionen der neuen Firmware
+
+Das neue, bewusst einfach gehaltene Menue bietet aktuell diese Punkte:
+
+- Starttemperatur
+- Gruss auf dem Startbildschirm
+- Maximale Temperatur
+- Zeit bis zur Abschaltung
+- Standby-Temperatur
+- Schrittweite fuer Solltemperatur
+- Ruecksetzen auf Werkseinstellungen
+
 # Merkmale:
 ## Controller
 * ATmega328, Kompatibel zu Arduino Nano
@@ -47,4 +122,3 @@ Design ist möglichst kostengünstig, speziell für Schüler-Budget.
 * Wahlweise
   * RS232
   * oder RS485 zur Kommunikation mit einem Steuerbaren Netzgerät (12, 24, 48V). 
-

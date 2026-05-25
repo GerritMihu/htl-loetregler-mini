@@ -31,3 +31,7 @@ fp-info-cache
 3d/release/
 
 kicad/jbc-miniregler-backups/
+
+# PlatformIO / lokale Entwicklungswerkzeuge
+.pio/
+.venv-pio/
